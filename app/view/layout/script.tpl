@@ -1,0 +1,9 @@
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/video.js/6.2.8/video.min.js"></script>
+<script src="https://cdn.bootcss.com/lightgallery/1.6.0/js/lightgallery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="https://cdn.bootcss.com/lg-thumbnail/1.1.0/lg-thumbnail.min.js"></script>
+<script src="https://cdn.bootcss.com/lg-fullscreen/1.0.1/lg-fullscreen.min.js"></script>
+<script src="https://cdn.bootcss.com/lg-video/1.1.0/lg-video.min.js"></script>
+<script src="https://cdn.bootcss.com/lg-autoplay/1.0.4/lg-autoplay.min.js"></script>
+<script src="../../public/js/main.js"></script>

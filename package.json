@@ -1,0 +1,51 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "egg": "^1.7.0",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^1.1.1",
+    "egg-sequelize": "^3.1.0",
+    "egg-view-nunjucks": "^2.1.3",
+    "mysql2": "^1.4.2"
+  },
+  "devDependencies": {
+    "autod": "^2.9.0",
+    "autod-egg": "^1.0.0",
+    "egg-bin": "^4.2.0",
+    "egg-ci": "^1.8.0",
+    "egg-mock": "^3.10.0",
+    "eslint": "^4.5.0",
+    "eslint-config-egg": "^5.1.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod",
+    "migrate:new": "egg-sequelize migration:create",
+    "migrate:up": "egg-sequelize db:migrate",
+    "migrate:down": "egg-sequelize db:migrate:undo"
+  },
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

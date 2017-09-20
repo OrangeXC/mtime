@@ -1,0 +1,68 @@
+.navbar-dropdown {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.cover-image {
+  width: 100%;
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 150%;
+}
+
+.cover-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navbar-item .title {
+  margin-left: 10px;
+}
+
+.detail-cover {
+  width: 300px;
+}
+
+.people-cover {
+  height: 200px;
+
+  background-size: cover;
+}
+
+.stills-wrap {
+  height: 200px;
+  overflow: hidden;
+}
+
+.stills {
+  height: 200px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+
+.video-item {
+  position: relative;
+}
+
+.video-item .cover {
+  width: 100%;
+  height: 100%;
+}
+
+.video-item .play-btn {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
