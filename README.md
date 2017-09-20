@@ -2,6 +2,8 @@
 
 > A MVC mTime websit build with egg
 
+![](http://ovsd4kmal.bkt.clouddn.com/Fv8I13LnvNqGFXDJIBgtc7sjOip6.png)
+
 ### features
 
 * All chinese location change
@@ -14,11 +16,11 @@
 
 ### tech
 
-[Egg](https://eggjs.org/)
-[MySql](https://www.mysql.com/)
-[Nunjucks](https://mozilla.github.io/nunjucks/)
-[Bulma](http://bulma.io/)
-[lightgallery](http://sachinchoolur.github.io/lightGallery/)
+* [Egg](https://eggjs.org/)
+* [MySql](https://www.mysql.com/)
+* [Nunjucks](https://mozilla.github.io/nunjucks/)
+* [Bulma](http://bulma.io/)
+* [lightgallery](http://sachinchoolur.github.io/lightGallery/)
 
 ### Development
 
