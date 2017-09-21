@@ -9,5 +9,4 @@ module.exports = app => {
   app.get('/hot_comment/:movieId', 'comment.hot.index');
   app.get('/stills/:movieId', 'stills.index.index');
   app.get('/video/:movieId', 'video.index.index');
-  app.get('/v', 'video.proxy.index');
 };

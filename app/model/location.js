@@ -22,17 +22,5 @@ module.exports = app => {
     },
   });
 
-  // User.findByLogin = function* (login) {
-  //   return yield this.findOne({ login: login });
-  // }
-
-  // Location.findAll = function* () {
-  //   return yield this.findAll();
-  // };
-
-  // User.prototype.logSignin = function* () {
-  //   yield this.update({ last_sign_in_at: new Date() });
-  // }
-
   return Location;
 };

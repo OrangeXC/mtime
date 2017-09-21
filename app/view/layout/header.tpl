@@ -38,14 +38,9 @@
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/jgthms/bulma" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/OrangeXC/mtime" target="_blank">
           <span class="icon" style="color: #333;">
             <i class="fa fa-github"></i>
-          </span>
-        </a>
-        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
-          <span class="icon" style="color: #55acee;">
-            <i class="fa fa-twitter"></i>
           </span>
         </a>
       </div>
