@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs');
+const fs = require('mz/fs');
 
 module.exports = app => {
   app.beforeStart(async () => {
@@ -9,8 +9,8 @@ module.exports = app => {
 
     app.database = await app.mysql.createInstance(app.config.mysql.client);
 
-    const locations = JSON.parse(fs.readFileSync('./init/location.json'));
+    const locations = await fs.readFile('./init/location.json');
 
-    await app.mysql.insert('locations', locations.data);
+    await app.mysql.insert('locations', JSON.parse(locations).data);
   });
 };
