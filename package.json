@@ -1,29 +1,29 @@
 {
-  "name": "egg",
+  "name": "mtime",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "dependencies": {
-    "egg": "^1.7.0",
+    "egg": "^2.0.0",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^1.1.1",
+    "egg-scripts": "^2.4.0",
     "egg-sequelize": "^3.1.0",
-    "egg-view-nunjucks": "^2.1.3",
-    "mysql2": "^1.4.2",
+    "egg-view-nunjucks": "^2.1.4",
+    "mysql2": "^1.5.1",
     "mz": "^2.7.0"
   },
   "devDependencies": {
-    "autod": "^2.9.0",
+    "autod": "^3.0.1",
     "autod-egg": "^1.0.0",
-    "egg-bin": "^4.2.0",
+    "egg-bin": "^4.3.6",
     "egg-ci": "^1.8.0",
-    "egg-mock": "^3.10.0",
-    "eslint": "^4.5.0",
-    "eslint-config-egg": "^5.1.0",
+    "egg-mock": "^3.13.1",
+    "eslint": "^4.12.1",
+    "eslint-config-egg": "^5.1.1",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "start": "egg-scripts start --daemon",
@@ -41,12 +41,12 @@
     "migrate:down": "egg-sequelize db:migrate:undo"
   },
   "ci": {
-    "version": "6, 8"
+    "version": "8, 9"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/OrangeXC/mtime"
   },
-  "author": "",
+  "author": "orange",
   "license": "MIT"
 }
