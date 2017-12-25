@@ -2053,9 +2053,9 @@ egg-schedule@^3.1.0:
     is-type-of "^1.2.0"
     safe-timers "^1.1.0"
 
-egg-scripts@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.4.0.tgz#08c46ffaee5131fa414b33609fe4637df9766114"
+egg-scripts@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.5.0.tgz#b15a643106fedb35371110d076460ea196cd153a"
   dependencies:
     common-bin "^2.7.1"
     egg-utils "^2.3.0"
