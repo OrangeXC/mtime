@@ -4,7 +4,7 @@ const fs = require('mz/fs');
 
 module.exports = app => {
   app.beforeStart(async () => {
-    // 应用会等待这个函数执行完成才启动
+    // The application will wait for this function to complete before starting
     await app.model.sync({ force: true });
 
     app.database = await app.mysql.createInstance(app.config.mysql.client);
