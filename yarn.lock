@@ -1576,6 +1576,10 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
+circular-json@^0.5.3:
+  version "0.5.3"
+  resolved "http://npm.zhaopin.com/circular-json/-/circular-json-0.5.3.tgz#eb1b783333bb125784647d1a76377caf1499efb1"
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/class-utils/-/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2200,9 +2204,9 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-egg-bin@^4.6.3:
-  version "4.6.3"
-  resolved "http://172.17.6.230/egg-bin/-/egg-bin-4.6.3.tgz#52a81573149d9b21bc0d74887cd28cd60e0aa59a"
+egg-bin@^4.7.0:
+  version "4.7.0"
+  resolved "http://npm.zhaopin.com/egg-bin/-/egg-bin-4.7.0.tgz#0c04aa025ce2bc007111ee6ee9e38ac2a652fc45"
   dependencies:
     autod "^3.0.1"
     chalk "^2.3.2"
@@ -2460,9 +2464,9 @@ egg-watcher@^3.0.0:
     sdk-base "^3.3.0"
     wt "^1.1.1"
 
-egg@^2.6.0:
-  version "2.6.0"
-  resolved "http://172.17.6.230/egg/-/egg-2.6.0.tgz#d63ff2de4a80f167e4a1ee023bb0deedeb00ab77"
+egg@^2.7.1:
+  version "2.7.1"
+  resolved "http://npm.zhaopin.com/egg/-/egg-2.7.1.tgz#17c8154131f072652db4cfad274058077bbb32f5"
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.44"
@@ -2470,6 +2474,7 @@ egg@^2.6.0:
     "@types/urllib" "^2.25.0"
     accepts "^1.3.5"
     agentkeepalive "^3.4.1"
+    circular-json "^0.5.3"
     cluster-client "^2.0.0"
     debug "^3.1.0"
     delegates "^1.0.0"
