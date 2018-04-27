@@ -1578,7 +1578,7 @@ circular-json@^0.3.1:
 
 circular-json@^0.5.3:
   version "0.5.3"
-  resolved "http://npm.zhaopin.com/circular-json/-/circular-json-0.5.3.tgz#eb1b783333bb125784647d1a76377caf1499efb1"
+  resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.5.3.tgz#eb1b783333bb125784647d1a76377caf1499efb1"
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2206,7 +2206,7 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
 
 egg-bin@^4.7.0:
   version "4.7.0"
-  resolved "http://npm.zhaopin.com/egg-bin/-/egg-bin-4.7.0.tgz#0c04aa025ce2bc007111ee6ee9e38ac2a652fc45"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.7.0.tgz#0c04aa025ce2bc007111ee6ee9e38ac2a652fc45"
   dependencies:
     autod "^3.0.1"
     chalk "^2.3.2"
@@ -2466,7 +2466,7 @@ egg-watcher@^3.0.0:
 
 egg@^2.7.1:
   version "2.7.1"
-  resolved "http://npm.zhaopin.com/egg/-/egg-2.7.1.tgz#17c8154131f072652db4cfad274058077bbb32f5"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.7.1.tgz#17c8154131f072652db4cfad274058077bbb32f5"
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.44"
