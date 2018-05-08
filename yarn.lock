@@ -176,9 +176,9 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
-"@types/koa@^2.0.44":
-  version "2.0.44"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.44.tgz#4d972a3dec4d6eb89bd3c16775de26305d1c51a6"
+"@types/koa@^2.0.45":
+  version "2.0.45"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.45.tgz#133cbda6cc8d12b73434b5d9663898c833f80aa2"
   dependencies:
     "@types/accepts" "*"
     "@types/cookies" "*"
@@ -1653,9 +1653,9 @@ cls-bluebird@^2.0.1:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
 
-cluster-client@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-2.0.0.tgz#6790912a84b0a8bc887a71b4e915b1d639b9e474"
+cluster-client@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-2.1.0.tgz#04f87d25ae96b398490909c8d6252994f5803731"
   dependencies:
     byte "^1.4.0"
     co "^4.6.0"
@@ -2234,9 +2234,9 @@ egg-ci@^1.8.0:
   dependencies:
     nunjucks "^3.0.1"
 
-egg-cluster@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-1.15.0.tgz#5d2ca74fee8aa0d82f7e866a16ea6fa24ac329c6"
+egg-cluster@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-1.16.0.tgz#6b744ab0ead8a8ea165b4a7d3f609634fc6e1a88"
   dependencies:
     cfork "^1.7.1"
     cluster-reload "^1.0.2"
@@ -2259,9 +2259,9 @@ egg-cookies@^2.2.2:
     scmp "^2.0.0"
     utility "^1.9.0"
 
-egg-core@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.4.1.tgz#b5bea6652907bdd7f0990c281a94dfb6df6a05fa"
+egg-core@^4.6.0:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.7.1.tgz#1840c2af5d391df558e34da8d2a93e556f013136"
   dependencies:
     co "^4.6.0"
     debug "^3.1.0"
@@ -2311,9 +2311,20 @@ egg-logger@^1.6.1:
     mkdirp "^0.5.1"
     utility "^1.11.0"
 
-egg-logrotator@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/egg-logrotator/-/egg-logrotator-3.0.2.tgz#80c3ae370a58dd8004f9e7c15f81ae11f39d6bb3"
+egg-logger@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/egg-logger/-/egg-logger-1.6.2.tgz#37f151b2d8d8a63ba937bd7949dea0dbf1ef4d21"
+  dependencies:
+    chalk "^1.1.3"
+    debug "^2.6.2"
+    depd "^1.1.0"
+    iconv-lite "^0.4.15"
+    mkdirp "^0.5.1"
+    utility "^1.11.0"
+
+egg-logrotator@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/egg-logrotator/-/egg-logrotator-3.0.3.tgz#232b59b110983afd7637da607d0d5c86dcee0b98"
   dependencies:
     debug "^3.1.0"
     moment "^2.19.3"
@@ -2395,9 +2406,9 @@ egg-scripts@^2.6.0:
     source-map-support "^0.5.4"
     zlogger "^1.1.0"
 
-egg-security@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/egg-security/-/egg-security-2.1.0.tgz#b098d3ae1a2d0b23195d728b1499dfcd062fe913"
+egg-security@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/egg-security/-/egg-security-2.2.2.tgz#b6b601578cfa5f84035e59aca3f7412af1c063ca"
   dependencies:
     csrf "^3.0.6"
     debug "^3.1.0"
@@ -2405,6 +2416,7 @@ egg-security@^2.1.0:
     egg-path-matching "^1.0.0"
     escape-html "^1.0.3"
     extend "^3.0.1"
+    ip "^1.1.5"
     koa-compose "^4.0.0"
     methods "^1.1.2"
     platform "^1.3.4"
@@ -2412,12 +2424,13 @@ egg-security@^2.1.0:
     type-is "^1.6.15"
     xss "^0.3.4"
 
-egg-sequelize@^3.1.3:
-  version "3.1.3"
-  resolved "http://172.17.6.230/egg-sequelize/-/egg-sequelize-3.1.3.tgz#64865b5d25a559556f9643a85aecfa851d6fa4fa"
+egg-sequelize@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-3.1.4.tgz#199200a2af5572eae5c733ce6d00937785b21ecc"
   dependencies:
     "@types/sequelize" "^4.27.14"
     chalk "^2.0.1"
+    mkdirp "^0.5.1"
     sequelize "^4.4.2"
     sequelize-cli "^2.7.0"
 
@@ -2464,32 +2477,32 @@ egg-watcher@^3.0.0:
     sdk-base "^3.3.0"
     wt "^1.1.1"
 
-egg@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.7.1.tgz#17c8154131f072652db4cfad274058077bbb32f5"
+egg@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.8.1.tgz#e89826140ef7296373da54ec60a382b46bbe1ce4"
   dependencies:
     "@types/accepts" "^1.3.5"
-    "@types/koa" "^2.0.44"
+    "@types/koa" "^2.0.45"
     "@types/koa-router" "^7.0.27"
     "@types/urllib" "^2.25.0"
     accepts "^1.3.5"
     agentkeepalive "^3.4.1"
     circular-json "^0.5.3"
-    cluster-client "^2.0.0"
+    cluster-client "^2.1.0"
     debug "^3.1.0"
     delegates "^1.0.0"
-    egg-cluster "^1.15.0"
+    egg-cluster "^1.16.0"
     egg-cookies "^2.2.2"
-    egg-core "^4.4.1"
+    egg-core "^4.6.0"
     egg-development "^2.2.0"
     egg-i18n "^2.0.0"
     egg-jsonp "^2.0.0"
-    egg-logger "^1.6.1"
-    egg-logrotator "^3.0.2"
+    egg-logger "^1.6.2"
+    egg-logrotator "^3.0.3"
     egg-multipart "^2.0.0"
     egg-onerror "^2.0.0"
     egg-schedule "^3.3.0"
-    egg-security "^2.1.0"
+    egg-security "^2.2.2"
     egg-session "^3.1.0"
     egg-static "^2.1.0"
     egg-view "^2.1.0"
@@ -2504,7 +2517,7 @@ egg@^2.7.1:
     mime-types "^2.1.18"
     on-finished "^2.3.0"
     sendmessage "^1.1.0"
-    urllib "^2.26.0"
+    urllib "^2.27.0"
     utility "^1.13.1"
     ylru "^1.2.0"
 
@@ -6990,9 +7003,9 @@ urllib@^2.24.0, urllib@^2.25.1:
     statuses "^1.3.1"
     utility "^1.12.0"
 
-urllib@^2.26.0:
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.26.0.tgz#ce8e3b562e6698a443a1fb3dba911e49e539c4ae"
+urllib@^2.27.0:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.27.0.tgz#a07b6ac23d3277f0d2985122d36452187c132847"
   dependencies:
     any-promise "^1.3.0"
     content-type "^1.0.2"
@@ -7002,6 +7015,7 @@ urllib@^2.26.0:
     ee-first "~1.1.1"
     humanize-ms "^1.2.0"
     iconv-lite "^0.4.15"
+    ip "^1.1.5"
     proxy-agent "^2.1.0"
     qs "^6.4.0"
     statuses "^1.3.1"
