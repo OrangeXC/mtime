@@ -3,30 +3,22 @@
 module.exports = app => {
   class MovieController extends app.Controller {
     async index(ctx) {
-      const locations = await ctx.model.Location.findAll();
+      const id = ctx.params.id;
+      const { location, locations } = await ctx.helper.getLocation(ctx);
 
-      let location;
-
-      ctx.query.location
-        ? location = locations.find(({ id }) => id === Number(ctx.query.location))
-        : location = {
-          id: 290,
-          name: '北京',
-        };
-
-      const movieDetail = await app.curl('https://ticket-api-m.mtime.cn/movie/detail.api?locationId=' + ctx.query.location + '&movieId=' + ctx.params.id, {
+      const movieDetail = await app.curl(`https://ticket-api-m.mtime.cn/movie/detail.api?locationId=${location.id}&movieId=${id}`, {
         dataType: 'json',
       }).then(res => res.data.data);
 
-      const movieComment = await app.curl('https://ticket-api-m.mtime.cn/movie/hotComment.api?movieId=' + ctx.params.id, {
+      const movieComment = await app.curl(`https://ticket-api-m.mtime.cn/movie/hotComment.api?movieId=${id}`, {
         dataType: 'json',
       }).then(res => res.data.data);
 
-      const movieImages = await app.curl('https://api-m.mtime.cn/Movie/ImageAll.api?movieId=' + ctx.params.id, {
+      const movieImages = await app.curl(`https://api-m.mtime.cn/Movie/ImageAll.api?movieId=${id}`, {
         dataType: 'json',
       }).then(res => res.data.images.splice(0, 10));
 
-      await ctx.render('page/movie.tpl', { location, locations, movieDetail, movieComment, movieImages, ctx });
+      await ctx.render('page/movie.tpl', { location, locations, movieDetail, movieComment, movieImages, id });
     }
   }
   return MovieController;

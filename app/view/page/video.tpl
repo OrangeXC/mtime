@@ -5,7 +5,7 @@
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ul>
         <li><a href="/?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-home"></i></span><span>主页</span></a></li>
-        <li><a href="/movie/{{ ctx.params.movieId }}?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
+        <li><a href="/movie/{{ movieId }}?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
         <li><a href="#"><span class="icon is-small"><i class="fa fa-video-camera"></i></span><span>拍摄花絮</span></a></li>
       </ul>
     </nav>
@@ -15,7 +15,7 @@
           <p>提示</p>
         </div>
         <div class="message-body">
-          由于三方的 api 不支持跨域视频访问，想观看视频请到 <a href="http://movie.mtime.com/{{ ctx.params.movieId }}/trailer.html" target="_blank">http://movie.mtime.com/{{ ctx.params.movieId }}/trailer.html</a>
+          由于三方的 api 不支持跨域视频访问，想观看视频请到 <a href="http://movie.mtime.com/{{ movieId }}/trailer.html" target="_blank">http://movie.mtime.com/{{ movieId }}/trailer.html</a>
         </div>
       </article>
       {% for item in videoData.videoList %}

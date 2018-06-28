@@ -5,7 +5,7 @@
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ul>
         <li><a href="/?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-home"></i></span><span>主页</span></a></li>
-        <li><a href="/movie/{{ ctx.params.movieId }}?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
+        <li><a href="/movie/{{ movieId }}?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
         <li><a href="#"><span class="icon is-small"><i class="fa fa-comments-o"></i></span><span>全部短评</span></a></li>
       </ul>
     </nav>
@@ -48,7 +48,7 @@
             {% if i === currentPage %}
               <li><a class="pagination-link is-current">{{ i }}</a></li>
             {% else %}
-              <li><a class="pagination-link" href="/comment/{{ ctx.params.movieId }}?location={{ location.id }}&page={{ i }}">{{ i }}</a></li>
+              <li><a class="pagination-link" href="/comment/{{ movieId }}?location={{ location.id }}&page={{ i }}">{{ i }}</a></li>
             {% endif %}
           {% endfor %}
         {% else %}

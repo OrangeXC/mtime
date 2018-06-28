@@ -3,26 +3,18 @@
 module.exports = app => {
   class VideoController extends app.Controller {
     async index(ctx) {
-      const locations = await ctx.model.Location.findAll();
+      const movieId = ctx.params.movieId;
+      const { location, locations } = await ctx.helper.getLocation(ctx);
 
-      let location;
-
-      ctx.query.location
-        ? location = locations.find(({ id }) => id === Number(ctx.query.location))
-        : location = {
-          id: 290,
-          name: '北京',
-        };
-
-      const movieDetail = await app.curl('https://ticket-api-m.mtime.cn/movie/detail.api?locationId=' + ctx.query.location + '&movieId=' + ctx.params.movieId, {
+      const movieDetail = await app.curl(`https://ticket-api-m.mtime.cn/movie/detail.api?locationId=${location.id}&movieId=${movieId}`, {
         dataType: 'json',
       }).then(res => res.data.data);
 
-      const videoData = await app.curl('https://api-m.mtime.cn/Movie/Video.api?pageIndex=1&movieId=' + ctx.params.movieId, {
+      const videoData = await app.curl(`https://api-m.mtime.cn/Movie/Video.api?pageIndex=1&movieId=${movieId}`, {
         dataType: 'json',
       }).then(res => res.data);
 
-      await ctx.render('page/video.tpl', { location, locations, movieDetail, videoData, ctx });
+      await ctx.render('page/video.tpl', { location, locations, movieDetail, videoData, movieId });
     }
   }
   return VideoController;
