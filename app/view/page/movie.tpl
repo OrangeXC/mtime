@@ -71,15 +71,15 @@
         {% endfor %}
       </div>
     </div>
-    <h3 class="is-3">短评预告片&拍摄花絮<a href="/video/{{ ctx.params.id }}?location={{ location.id }}"> <small>点击查看>></small></a></h3>
+    <h3 class="is-3">短评预告片&拍摄花絮<a href="/video/{{ id }}?location={{ location.id }}"> <small>点击查看>></small></a></h3>
     <div class="content"></div>
-    <h3 class="is-3">剧照<a href="/stills/{{ ctx.params.id }}?location={{ location.id }}"> <small>查看更多>></small></a></h3>
+    <h3 class="is-3">剧照<a href="/stills/{{ id }}?location={{ location.id }}"> <small>查看更多>></small></a></h3>
     <div class="content stills-wrap">
       {% for item in movieImages %}
         <img class="stills" src="{{ item.image }}" alt="image">
       {% endfor %}
     </div>
-    <h3 class="is-3">精选影评（{{ movieComment.plus.total }}）<a href="/hot_comment/{{ ctx.params.id }}?location={{ location.id }}&page=1"><small>查看更多>></small></a></h3>
+    <h3 class="is-3">精选影评（{{ movieComment.plus.total }}）<a href="/hot_comment/{{ id }}?location={{ location.id }}&page=1"><small>查看更多>></small></a></h3>
     {% for item in movieComment.plus.list %}
       <div class="box">
         <article class="media">
@@ -112,7 +112,7 @@
         </article>
       </div>
     {% endfor %}
-    <h3 class="is-3">短评（{{ movieComment.mini.total }}）<a href="/comment/{{ ctx.params.id }}?location={{ location.id }}&page=1"><small>查看更多>></small></a></h3>
+    <h3 class="is-3">短评（{{ movieComment.mini.total }}）<a href="/comment/{{ id }}?location={{ location.id }}&page=1"><small>查看更多>></small></a></h3>
     {% for item in movieComment.mini.list %}
       <div class="box">
         <article class="media">
