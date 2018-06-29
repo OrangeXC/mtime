@@ -3,14 +3,22 @@
 const { app, assert } = require('egg-mock/bootstrap');
 const { mocks, mockHelper } = require('../../helpers');
 
-const url = '/';
+const url = `/hot_comment/${mocks.movieId}?page=1`;
 
-describe('controller: home', () => {
+describe('controller: comment/normal', () => {
   beforeEach(() => {
     mockHelper(app);
 
-    app.mockHttpclient(`https://api-m.mtime.cn/PageSubArea/HotPlayMovies.api?locationId=${mocks.location.id}`, {
-      data: [],
+    app.mockHttpclient(`https://ticket-api-m.mtime.cn/movie/detail.api?locationId=${mocks.location.id}&movieId=${mocks.movieId}`, {
+      data: {
+        data: {},
+      },
+    });
+
+    app.mockHttpclient(`https://api-m.mtime.cn/Movie/HotLongComments.api?pageIndex=1&movieId=${mocks.movieId}`, {
+      data: {
+        totalCount: 118,
+      },
     });
   });
 
@@ -33,11 +41,17 @@ describe('controller: home', () => {
     await app.httpRequest().get(url);
 
     assert.deepEqual(renderData, {
-      tpl: 'page/home.tpl',
+      tpl: 'page/hotComment.tpl',
       data: {
         location: mocks.location,
         locations: mocks.locations,
-        hotPlayMovies: [],
+        movieDetail: {},
+        comments: {
+          totalCount: 118,
+        },
+        pages: [ 1, 2, 3, 4, 5, 6 ],
+        currentPage: '1',
+        movieId: mocks.movieId,
       },
     });
   });

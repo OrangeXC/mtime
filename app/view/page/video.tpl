@@ -4,8 +4,8 @@
   <div class="container">
     <nav class="breadcrumb" aria-label="breadcrumbs">
       <ul>
-        <li><a href="/?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-home"></i></span><span>主页</span></a></li>
-        <li><a href="/movie/{{ movieId }}?location={{ location.id }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
+        <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span><span>主页</span></a></li>
+        <li><a href="/movie/{{ movieId }}"><span class="icon is-small"><i class="fa fa-film"></i></span><span>{{ movieDetail.basic.name }}</span></a></li>
         <li><a href="#"><span class="icon is-small"><i class="fa fa-video-camera"></i></span><span>拍摄花絮</span></a></li>
       </ul>
     </nav>
