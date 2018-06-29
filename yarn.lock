@@ -1742,6 +1742,10 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@*:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
+
 commander@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
@@ -2202,9 +2206,9 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-egg-bin@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.7.0.tgz#0c04aa025ce2bc007111ee6ee9e38ac2a652fc45"
+egg-bin@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.7.1.tgz#33961ef62d38d1c8592042046dbf3ba17372770d"
   dependencies:
     autod "^3.0.1"
     chalk "^2.3.2"
@@ -4940,6 +4944,12 @@ mocha@^5.0.5:
     minimatch "3.0.4"
     mkdirp "0.5.1"
     supports-color "4.4.0"
+
+mockjs@^1.0.1-beta3:
+  version "1.0.1-beta3"
+  resolved "https://registry.yarnpkg.com/mockjs/-/mockjs-1.0.1-beta3.tgz#d234f3c27256397564f2c955142e891909537209"
+  dependencies:
+    commander "*"
 
 moment-timezone@^0.5.0, moment-timezone@^0.5.4:
   version "0.5.14"

@@ -15,7 +15,7 @@
     <div class="columns is-multiline">
       {% for item in movieComingNew.attention %}
         <div class="column is-3">
-          <a href="/movie/{{ item.id }}?location={{ location.id }}">
+          <a href="/movie/{{ item.id }}">
             <div class="card">
               <div class="card-image">
                 <figure class="cover-image">

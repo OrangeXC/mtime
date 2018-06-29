@@ -12,5 +12,6 @@ module.exports = app => {
       await ctx.render('page/home.tpl', { location, locations, hotPlayMovies });
     }
   }
+
   return HomeController;
 };

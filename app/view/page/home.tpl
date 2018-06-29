@@ -46,7 +46,7 @@
     <div class="columns is-multiline">
       {% for item in hotPlayMovies.movies %}
         <div class="column is-3">
-          <a href="/movie/{{ item.movieId }}?location={{ location.id }}">
+          <a href="/movie/{{ item.movieId }}">
             <div class="card">
               <div class="card-image">
                 <figure class="cover-image">

@@ -3,14 +3,22 @@
 const { app, assert } = require('egg-mock/bootstrap');
 const { mocks, mockHelper } = require('../../helpers');
 
-const url = '/';
+const url = `/stills/${mocks.movieId}`;
 
-describe('controller: home', () => {
+describe('controller: stills', () => {
   beforeEach(() => {
     mockHelper(app);
 
-    app.mockHttpclient(`https://api-m.mtime.cn/PageSubArea/HotPlayMovies.api?locationId=${mocks.location.id}`, {
-      data: [],
+    app.mockHttpclient(`https://ticket-api-m.mtime.cn/movie/detail.api?locationId=${mocks.location.id}&movieId=${mocks.movieId}`, {
+      data: {
+        data: {},
+      },
+    });
+
+    app.mockHttpclient(`https://api-m.mtime.cn/Movie/ImageAll.api?movieId=${mocks.movieId}`, {
+      data: {
+        images: [],
+      },
     });
   });
 
@@ -33,11 +41,13 @@ describe('controller: home', () => {
     await app.httpRequest().get(url);
 
     assert.deepEqual(renderData, {
-      tpl: 'page/home.tpl',
+      tpl: 'page/stills.tpl',
       data: {
         location: mocks.location,
         locations: mocks.locations,
-        hotPlayMovies: [],
+        movieDetail: {},
+        stills: [],
+        movieId: mocks.movieId,
       },
     });
   });
