@@ -2282,9 +2282,9 @@ egg-logrotator@^3.0.3:
     moment "^2.19.3"
     mz "^2.7.0"
 
-egg-mock@^3.17.2:
-  version "3.17.2"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.17.2.tgz#8d4adb1a5fe142543a65408ce8780fbe0ef010eb"
+egg-mock@^3.17.3:
+  version "3.17.3"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.17.3.tgz#d58fcb5746b07634a705e2314a334c3fa7fa8b9c"
   dependencies:
     "@types/power-assert" "^1.4.29"
     await-event "^2.1.0"
