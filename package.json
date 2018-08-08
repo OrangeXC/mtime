@@ -18,7 +18,7 @@
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.8.1",
     "egg-ci": "^1.8.0",
-    "egg-mock": "^3.19.1",
+    "egg-mock": "^3.19.2",
     "eslint": "^5.3.0",
     "eslint-config-egg": "^7.0.0",
     "webstorm-disable-index": "^1.2.0"
