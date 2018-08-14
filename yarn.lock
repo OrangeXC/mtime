@@ -293,7 +293,7 @@
 
 "@types/sequelize@^4.27.24":
   version "4.27.24"
-  resolved "http://npm.zhaopin.com/@types%2fsequelize/-/sequelize-4.27.24.tgz#7d593c062c368f570c68b0217f5c1d4c892ead48"
+  resolved "https://registry.yarnpkg.com/@types%2fsequelize/-/sequelize-4.27.24.tgz#7d593c062c368f570c68b0217f5c1d4c892ead48"
   dependencies:
     "@types/bluebird" "*"
     "@types/continuation-local-storage" "*"
@@ -1700,7 +1700,7 @@ cliui@^4.0.0:
 
 cls-bluebird@^2.1.0:
   version "2.1.0"
-  resolved "http://npm.zhaopin.com/cls-bluebird/-/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
+  resolved "https://registry.yarnpkg.com/cls-bluebird/-/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
   dependencies:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
@@ -2428,7 +2428,7 @@ egg-schedule@^3.3.0:
 
 egg-scripts@^2.8.0:
   version "2.8.0"
-  resolved "http://npm.zhaopin.com/egg-scripts/-/egg-scripts-2.8.0.tgz#455fef34e5748c41e6160eee04a229c66e6a9159"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.8.0.tgz#455fef34e5748c41e6160eee04a229c66e6a9159"
   dependencies:
     common-bin "^2.7.1"
     debug "^3.1.0"
@@ -2462,7 +2462,7 @@ egg-security@^2.2.3:
 
 egg-sequelize@^4.0.1:
   version "4.0.1"
-  resolved "http://npm.zhaopin.com/egg-sequelize/-/egg-sequelize-4.0.1.tgz#41a89642c30e456ad6392cfdcabdfdae4e629290"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.0.1.tgz#41a89642c30e456ad6392cfdcabdfdae4e629290"
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
@@ -3361,7 +3361,7 @@ generate-function@^2.0.0:
 
 generic-pool@^3.4.0:
   version "3.4.2"
-  resolved "http://npm.zhaopin.com/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
 
 get-caller-file@^1.0.1:
   version "1.0.2"
@@ -4665,7 +4665,7 @@ moment-timezone@^0.5.0:
 
 moment-timezone@^0.5.14:
   version "0.5.21"
-  resolved "http://npm.zhaopin.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
   dependencies:
     moment ">= 2.9.0"
 
@@ -4679,7 +4679,7 @@ moment@^2.19.3:
 
 moment@^2.20.0:
   version "2.22.2"
-  resolved "http://npm.zhaopin.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 ms@2.0.0:
   version "2.0.0"
@@ -5716,7 +5716,7 @@ ret@~0.1.10:
 
 retry-as-promised@^2.3.2:
   version "2.3.2"
-  resolved "http://npm.zhaopin.com/retry-as-promised/-/retry-as-promised-2.3.2.tgz#cd974ee4fd9b5fe03cbf31871ee48221c07737b7"
+  resolved "https://registry.yarnpkg.com/retry-as-promised/-/retry-as-promised-2.3.2.tgz#cd974ee4fd9b5fe03cbf31871ee48221c07737b7"
   dependencies:
     bluebird "^3.4.6"
     debug "^2.6.9"
@@ -5826,7 +5826,7 @@ seq-queue@0.0.5:
 
 sequelize@^4.38.0:
   version "4.38.0"
-  resolved "http://npm.zhaopin.com/sequelize/-/sequelize-4.38.0.tgz#330c1aa445d4e46b80a97d895603c01666cdc357"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.38.0.tgz#330c1aa445d4e46b80a97d895603c01666cdc357"
   dependencies:
     bluebird "^3.5.0"
     cls-bluebird "^2.1.0"
@@ -6656,7 +6656,7 @@ uuid@^3.0.0, uuid@^3.0.1:
 
 uuid@^3.2.1:
   version "3.3.2"
-  resolved "http://npm.zhaopin.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.1"
@@ -6667,7 +6667,7 @@ validate-npm-package-license@^3.0.1:
 
 validator@^10.4.0:
   version "10.5.0"
-  resolved "http://npm.zhaopin.com/validator/-/validator-10.5.0.tgz#1debbe1e6f5fd0c920ed2af47516f3762033939c"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.5.0.tgz#1debbe1e6f5fd0c920ed2af47516f3762033939c"
 
 vary@^1.0.0:
   version "1.1.2"
