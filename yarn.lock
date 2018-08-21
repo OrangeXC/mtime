@@ -2460,9 +2460,9 @@ egg-security@^2.2.3:
     type-is "^1.6.15"
     xss "^0.3.4"
 
-egg-sequelize@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.0.4.tgz#3e1a5cf75a9a802ebad31a0b2ec7d2ba18a51f71"
+egg-sequelize@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.0.7.tgz#3e1b8776a19994988a788dfb2290d40d863f7be8"
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
