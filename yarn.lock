@@ -2222,9 +2222,9 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-egg-bin@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.8.1.tgz#227d8bf154ed002db97aa20f7ed0ad3e34d4836f"
+egg-bin@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.8.2.tgz#b2c13539d41d86801e4a4ce918f5b224dd030a20"
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -2233,7 +2233,7 @@ egg-bin@^4.8.1:
     debug "^3.1.0"
     detect-port "^1.2.3"
     egg-utils "^2.4.0"
-    espower-typescript "^8.0.0"
+    espower-typescript "^9.0.0"
     globby "^8.0.1"
     inspector-proxy "^1.2.1"
     intelli-espower-loader "^1.0.1"
@@ -2426,9 +2426,9 @@ egg-schedule@^3.3.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
-egg-scripts@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.8.0.tgz#455fef34e5748c41e6160eee04a229c66e6a9159"
+egg-scripts@^2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.9.0.tgz#5655c3b0307aeed07043d8b67ea16a1b0c9f38df"
   dependencies:
     common-bin "^2.7.1"
     debug "^3.1.0"
@@ -2460,9 +2460,9 @@ egg-security@^2.2.3:
     type-is "^1.6.15"
     xss "^0.3.4"
 
-egg-sequelize@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.0.2.tgz#166e30140aeb99c60629ea73f022d9e27ceb51f5"
+egg-sequelize@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.0.7.tgz#3e1b8776a19994988a788dfb2290d40d863f7be8"
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
@@ -2626,16 +2626,6 @@ error-ex@^1.2.0:
 error-inject@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/error-inject/-/error-inject-1.0.0.tgz#e2b3d91b54aed672f309d950d154850fa11d4f37"
-
-es-abstract@^1.10.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.12.0.tgz#9dbbdd27c6856f0001421ca18782d786bf8a6165"
-  dependencies:
-    es-to-primitive "^1.1.1"
-    function-bind "^1.1.1"
-    has "^1.0.1"
-    is-callable "^1.1.3"
-    is-regex "^1.0.4"
 
 es-abstract@^1.7.0:
   version "1.10.0"
@@ -2849,9 +2839,9 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.3.0.tgz#53695aca5213968aacdf970ccb231e42a2b285f8"
+eslint@^5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.4.0.tgz#d068ec03006bb9e06b429dc85f7e46c1b69fac62"
   dependencies:
     ajv "^6.5.0"
     babel-code-frame "^6.26.0"
@@ -2887,7 +2877,6 @@ eslint@^5.3.0:
     regexpp "^2.0.0"
     require-uncached "^1.0.3"
     semver "^5.5.0"
-    string.prototype.matchall "^2.0.0"
     strip-ansi "^4.0.0"
     strip-json-comments "^2.0.1"
     table "^4.0.3"
@@ -2944,14 +2933,13 @@ espower-source@^2.3.0:
     path-is-absolute "^1.0.0"
     xtend "^4.0.0"
 
-espower-typescript@^8.0.0:
-  version "8.1.4"
-  resolved "https://registry.yarnpkg.com/espower-typescript/-/espower-typescript-8.1.4.tgz#b36742ab346b331291b1fb15816e815c3edd0fcd"
+espower-typescript@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/espower-typescript/-/espower-typescript-9.0.0.tgz#290d77227610a17f9e5f69a73c1da79d39747b52"
   dependencies:
     espower-source "^2.3.0"
     minimatch "^3.0.3"
-    typescript "^2.2.1"
-    typescript-simple "^8.0.6"
+    ts-node "^7.0.0"
 
 espower@^2.0.0:
   version "2.1.0"
@@ -3541,10 +3529,6 @@ has-flag@^2.0.0:
 has-flag@^3.0.0:
   version "3.0.0"
   resolved "http://172.17.6.230/has-flag/-/has-flag-3.0.0.tgz#b5d454dc2199ae225699f3467e5a07f3b955bafd"
-
-has-symbols@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.0.tgz#ba1a8f1af2a0fc39650f5c850367704122063b44"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -5590,12 +5574,6 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
 
-regexp.prototype.flags@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.2.0.tgz#6b30724e306a27833eeb171b66ac8890ba37e41c"
-  dependencies:
-    define-properties "^1.1.2"
-
 regexpp@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/regexpp/-/regexpp-2.0.0.tgz#b2a7534a85ca1b033bcf5ce9ff8e56d4e0755365"
@@ -6151,16 +6129,6 @@ string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string.prototype.matchall@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/string.prototype.matchall/-/string.prototype.matchall-2.0.0.tgz#2af8fe3d2d6dc53ca2a59bd376b089c3c152b3c8"
-  dependencies:
-    define-properties "^1.1.2"
-    es-abstract "^1.10.0"
-    function-bind "^1.1.1"
-    has-symbols "^1.0.0"
-    regexp.prototype.flags "^1.2.0"
-
 string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
@@ -6484,16 +6452,6 @@ type-is@^1.6.16:
 type-name@^2.0.0, type-name@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/type-name/-/type-name-2.0.2.tgz#efe7d4123d8ac52afff7f40c7e4dec5266008fb4"
-
-typescript-simple@^8.0.6:
-  version "8.0.6"
-  resolved "http://172.17.6.230/typescript-simple/-/typescript-simple-8.0.6.tgz#567143bc6882012c045a60efc38a239a986f1af8"
-  dependencies:
-    typescript "^2.2.1"
-
-typescript@^2.2.1:
-  version "2.8.1"
-  resolved "http://172.17.6.230/typescript/-/typescript-2.8.1.tgz#6160e4f8f195d5ba81d4876f9c0cc1fbc0820624"
 
 ua-parser-js@^0.7.9:
   version "0.7.17"
