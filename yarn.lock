@@ -2224,7 +2224,7 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
 
 egg-bin@^4.8.2:
   version "4.8.2"
-  resolved "http://npm.zhaopin.com/egg-bin/-/egg-bin-4.8.2.tgz#b2c13539d41d86801e4a4ce918f5b224dd030a20"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.8.2.tgz#b2c13539d41d86801e4a4ce918f5b224dd030a20"
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -2428,7 +2428,7 @@ egg-schedule@^3.3.0:
 
 egg-scripts@^2.9.0:
   version "2.9.0"
-  resolved "http://npm.zhaopin.com/egg-scripts/-/egg-scripts-2.9.0.tgz#5655c3b0307aeed07043d8b67ea16a1b0c9f38df"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.9.0.tgz#5655c3b0307aeed07043d8b67ea16a1b0c9f38df"
   dependencies:
     common-bin "^2.7.1"
     debug "^3.1.0"
@@ -2935,7 +2935,7 @@ espower-source@^2.3.0:
 
 espower-typescript@^9.0.0:
   version "9.0.0"
-  resolved "http://npm.zhaopin.com/espower-typescript/-/espower-typescript-9.0.0.tgz#290d77227610a17f9e5f69a73c1da79d39747b52"
+  resolved "https://registry.yarnpkg.com/espower-typescript/-/espower-typescript-9.0.0.tgz#290d77227610a17f9e5f69a73c1da79d39747b52"
   dependencies:
     espower-source "^2.3.0"
     minimatch "^3.0.3"
