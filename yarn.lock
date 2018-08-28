@@ -2220,9 +2220,9 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-egg-bin@^4.8.2:
-  version "4.8.2"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.8.2.tgz#b2c13539d41d86801e4a4ce918f5b224dd030a20"
+egg-bin@^4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.8.3.tgz#c35ba5e8240e59604a20d3201b2f0979f196eb65"
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -2240,6 +2240,7 @@ egg-bin@^4.8.2:
     nyc "^12.0.2"
     power-assert "^1.6.0"
     semver "^5.5.0"
+    source-map-support "^0.5.6"
     test-exclude "^4.2.1"
     ts-node "^7.0.0"
     ypkgfiles "^1.6.0"
