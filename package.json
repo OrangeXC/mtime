@@ -4,7 +4,7 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.10.0",
+    "egg": "^2.11.0",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.9.1",
     "egg-sequelize": "^4.1.0",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "autod": "^3.0.1",
     "autod-egg": "^1.1.0",
-    "egg-bin": "^4.8.4",
+    "egg-bin": "^4.8.5",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.20.0",
     "eslint": "^5.5.0",
