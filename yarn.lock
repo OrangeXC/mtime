@@ -2319,9 +2319,9 @@ egg-bin@^4.9.0:
     ts-node "^7.0.0"
     ypkgfiles "^1.6.0"
 
-egg-ci@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/egg-ci/-/egg-ci-1.9.1.tgz#f86fce22d56542f99a9641210c31ef0c40ce582b"
+egg-ci@^1.9.2:
+  version "1.9.2"
+  resolved "http://npm.zhaopin.com/egg-ci/-/egg-ci-1.9.2.tgz#7c479cfa72436c0691582f371c8a06281f02bb80"
   dependencies:
     nunjucks "^3.1.3"
 
