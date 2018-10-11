@@ -4,9 +4,9 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.11.2",
+    "egg": "^2.12.0",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.9.1",
+    "egg-scripts": "^2.10.0",
     "egg-sequelize": "^4.1.0",
     "egg-view-nunjucks": "^2.2.0",
     "mockjs": "^1.0.1-beta3",
