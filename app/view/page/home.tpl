@@ -62,7 +62,8 @@
                 </div>
 
                 <div class="content">
-                  评分：<a>{{ item.ratingFinal }}</a> <small>({{ item.wantedCount }}人想看)</small><br>
+                  评分：<a>{{ item.ratingFinal }}</a>
+                  <small>({{ item.wantedCount }}人想看)</small><br>
                   {{ item.length }}分 {{ item.type }}<br>
                   导演：{{ item.directorName }}<br>
                   主演：{{ item.actorName1 }} / {{ item.actorName2 }}

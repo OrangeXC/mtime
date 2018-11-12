@@ -29,7 +29,10 @@
           </a>
           <div class="navbar-dropdown ">
             {% for item in locations %}
-              <a href="{{ window.location.origin }}{{ window.location.pathname }}?location={{ item.id }}" class="dropdown-item">
+              <a
+                href="{{ window.location.origin }}{{ window.location.pathname }}?location={{ item.id }}"
+                class="dropdown-item"
+              >
                 {{ item.name }}
               </a>
             {% endfor %}
@@ -38,7 +41,11 @@
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/OrangeXC/mtime" target="_blank">
+        <a
+          class="navbar-item is-hidden-desktop-only"
+          href="https://github.com/OrangeXC/mtime"
+          target="_blank"
+        >
           <span class="icon" style="color: #333;">
             <i class="fa fa-github"></i>
           </span>

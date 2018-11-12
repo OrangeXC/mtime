@@ -31,7 +31,8 @@
                 </div>
 
                 <div class="content">
-                  评分：<a>{{ item.r }}</a> <small>({{ item.wantedCount }}人想看)</small><br>
+                  评分：<a>{{ item.r }}</a>
+                  <small>({{ item.wantedCount }}人想看)</small><br>
                   {{ item.d }}分 {{ item.type }}<br>
                   导演：{{ item.dN }}<br>
                   主演：{{ item.aN1 }} / {{ item.aN2 }}
