@@ -26,12 +26,16 @@
                 <div class="media">
                   <div class="media-content">
                     <p class="title is-4">{{ item.title }}</p>
-                    <p class="subtitle is-6">{{ item.releaseDate }} {{ item.locationName }}</p>
+                    <p class="subtitle is-6">
+                      {{ item.releaseDate }}
+                      {{ item.locationName }}
+                    </p>
                   </div>
                 </div>
 
                 <div class="content">
-                  评分：<a>{{ item.r }}</a> <small>({{ item.wantedCount }}人想看)</small><br>
+                  评分：<a>{{ item.r }}</a>
+                  <small>({{ item.wantedCount }}人想看)</small><br>
                   {{ item.type }}<br>
                   导演：{{ item.director }}<br>
                   主演：{{ item.actor1 }} / {{ item.actor2 }}

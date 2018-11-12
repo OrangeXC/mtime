@@ -20,7 +20,7 @@
             <h2 class="title">{{ movieDetail.basic.name }}<small> ({{ movieDetail.basic.releaseDate | truncate(4, False, '', 0) }})</small></h2>
             <h3 class="subtitle">{{ movieDetail.basic.nameEn }}</h3>
             <p>导演：{{ movieDetail.basic.director.name }} <small>({{ movieDetail.basic.director.nameEn }})</small></p>
-            <p>主演：{% for item in movieDetail.basic.actors %}{{ item.name }} / {% endfor %}</p>
+            <p>主演：{% for item in movieDetail.basic.actors %}{% if item.name %}{{ item.name }}{% else %}{{ item.nameEn }}{% endif %} / {% endfor %}</p>
             <p>类型：{{ movieDetail.basic.type | join(' / ') }}</p>
             <p>上映日期：{{ movieDetail.basic.releaseDate }}（{{ movieDetail.basic.releaseArea }}）</p>
             <p>片长：{{ movieDetail.basic.mins }}</p>
