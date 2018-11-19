@@ -460,11 +460,13 @@ agent-base@^4.1.0:
   dependencies:
     es6-promisify "^5.0.0"
 
-agentkeepalive@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-3.5.1.tgz#4eba75cf2ad258fc09efd506cdb8d8c2971d35a4"
-  integrity sha512-Cte/sTY9/XcygXjJ0q58v//SnEQ7ViWExKyJpLJlLqomDbQyMLh6Is4KuWJ/wmxzhiwkGRple7Gqv1zf6Syz5w==
+agentkeepalive@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.0.0.tgz#777e7e4c828bde2690cc7a374ede587d45ba4271"
+  integrity sha512-McCjHBAI3FGTy9XOMDr/8qzXK4VBL3h+O/TqlBdsyiwX21SdPCQhPIX0Y1HS5ctO5m2maVQRJWEn0IrzKRB6oQ==
   dependencies:
+    debug "^4.1.0"
+    depd "^1.1.2"
     humanize-ms "^1.2.1"
 
 ajv@^4.9.1:
@@ -2387,6 +2389,13 @@ debug@^4.0.1:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
+  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
+  dependencies:
+    ms "^2.1.1"
+
 decamelize@^1.0.0, decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -2992,17 +3001,17 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.13.0:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.13.0.tgz#e0cef963839984ed178ceeb328ce34ef83f07460"
-  integrity sha512-Rbw9+1Xk5m6EXqigFRO2EGLbWdES8ZjjyF4FcdygK2rVT5g3mb7KSS1HBloS7zmdcvHIrBgTTBSRKgQDUdAqDg==
+egg@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.14.0.tgz#a9bfbfa75353ebf57016184c0d32af4b2d6e86b0"
+  integrity sha512-a3HGbMTKlifNmM9tob4aHwSn9S3EZZks7/DNnA73TS5F2MZVk0txLphFDbmSSdJblv6lDaGmYFSFpAGDXJk0eg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.46"
     "@types/koa-router" "^7.0.32"
     "@types/urllib" "^2.28.0"
     accepts "^1.3.5"
-    agentkeepalive "^3.5.1"
+    agentkeepalive "^4.0.0"
     cache-content-type "^1.0.1"
     circular-json "0.5.5"
     cluster-client "^2.1.1"
@@ -3035,7 +3044,7 @@ egg@^2.13.0:
     mz "^2.7.0"
     on-finished "^2.3.0"
     sendmessage "^1.1.0"
-    urllib "^2.30.0"
+    urllib "^2.31.1"
     utility "^1.15.0"
     ylru "^1.2.1"
 
@@ -8102,10 +8111,10 @@ urllib@^2.29.1:
     statuses "^1.3.1"
     utility "^1.12.0"
 
-urllib@^2.30.0:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.30.0.tgz#68208f030e096ebeaf213110dc58d542220148c3"
-  integrity sha512-KifnzOj44K/3Hi3Bh91PkQ10ZlxPS9kTN3islTwU7WLl0Fs4UlNqRtoyXOt7HfI9OHnvVzVB8is4eJvEOr+Lnw==
+urllib@^2.31.1:
+  version "2.31.2"
+  resolved "https://registry.yarnpkg.com/urllib/-/urllib-2.31.2.tgz#09e5a5eef3ce1fcabaa69f2211fef17b3d017d6e"
+  integrity sha512-x1sTP3AOEjH0gd5AfT08cTtZKzNuznRGiSFTSLaBMBRlLl2Lh26rtyZiBhDK21JZPnvWGGt1APOl1l8v4jCjOQ==
   dependencies:
     any-promise "^1.3.0"
     content-type "^1.0.2"
