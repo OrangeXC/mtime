@@ -2848,10 +2848,10 @@ egg-logrotator@^3.0.3:
     moment "^2.19.3"
     mz "^2.7.0"
 
-egg-mock@^3.20.1:
-  version "3.20.1"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.20.1.tgz#bb59619a5d960232a1446ef7f17c21acea2a07bb"
-  integrity sha512-Vevq59lpd3vGVHDz7n9ebRcN38OaL41n8eIH3XgrfS8X2QtViaRjbW2Xa8qIdSFpVhoF7B2BfKE2O7FsBSYz8A==
+egg-mock@^3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.21.0.tgz#751f0c065d612efbc938096e2f04e569402e45cf"
+  integrity sha512-0r1Fqg910cm3Ws+j8WEtk8XjrRAFoy7AzQXGMzhB8CxuKZM4ZU45fnWHSB0kdClMtatWTyLzYDtVDBc5ASd1PQ==
   dependencies:
     "@types/power-assert" "^1.5.0"
     await-event "^2.1.0"
@@ -3385,10 +3385,10 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@^5.11.0:
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.11.0.tgz#51a0e70f137a425fe044cd48273b96f28a774b1f"
-  integrity sha512-gbEg0ttToZPkZUv2yYjpipxuYrv/9aSSmgM4V6GkiO3u04QosHYBtduUCqLEulEg3YvNDAkk3OWzyQJ/heZ3Nw==
+eslint@^5.11.1:
+  version "5.11.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.11.1.tgz#8deda83db9f354bf9d3f53f9677af7e0e13eadda"
+  integrity sha512-gOKhM8JwlFOc2acbOrkYR05NW8M6DCMSvfcJiBB5NDxRE1gv8kbvxKaC9u69e6ZGEMWXcswA/7eKR229cEIpvg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
