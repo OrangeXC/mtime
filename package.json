@@ -7,7 +7,7 @@
     "egg": "^2.14.2",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
-    "egg-sequelize": "^4.2.0",
+    "egg-sequelize": "^4.3.0",
     "egg-view-nunjucks": "^2.2.0",
     "mockjs": "^1.0.1-beta3",
     "mysql2": "^1.6.4",
