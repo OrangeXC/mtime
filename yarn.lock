@@ -2952,10 +2952,10 @@ egg-security@^2.4.0:
     type-is "^1.6.15"
     xss "^0.3.4"
 
-egg-sequelize@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.3.0.tgz#e23a5ff30afa0e617d358597eff48e58684d3f68"
-  integrity sha512-IEpQh924BmhEcK1sdeD9aZfD6QULqjh+PWW/Ul3UTFLN5OIPDMwBboWCG1qAm+xDRtbmf3x4OF60Y8vW7leDXg==
+egg-sequelize@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-4.3.1.tgz#698a9572ee9a3ad3fe164f99a118264f4db2db0b"
+  integrity sha512-C+hunArmved0OVMGo5sKz6TDhdYCdXCsqQiiyOlezfZbQUYEAaKwPaNLjb9bM0fA6/aNQurT19F9GRlAcInx4A==
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
