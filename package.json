@@ -4,13 +4,13 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.14.2",
+    "egg": "^2.15.1",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^4.3.1",
     "egg-view-nunjucks": "^2.2.0",
     "mockjs": "^1.0.1-beta3",
-    "mysql2": "^1.6.4",
+    "mysql2": "^1.6.5",
     "mz": "^2.7.0"
   },
   "devDependencies": {
@@ -19,9 +19,9 @@
     "egg-bin": "^4.10.0",
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
-    "eslint": "^5.12.1",
+    "eslint": "^5.13.0",
     "eslint-config-egg": "^7.1.0",
-    "typescript": "^3.2.4",
+    "typescript": "^3.3.3",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
