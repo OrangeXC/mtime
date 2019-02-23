@@ -3133,10 +3133,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.16.2:
-  version "2.16.2"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.16.2.tgz#46a396be439f02d742e4c4fb4d483782c1c65bfc"
-  integrity sha512-+1kPITuwep+qm7aZsN9K58CKbLE+NB3uBK9hdJqYx7DG4yaB5/F74gLF2ciOliIp15fOvkmUDGxDLfHa0V0IiQ==
+egg@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.17.0.tgz#0045b025a622075f9c9d12ec1e3d3a9268848afa"
+  integrity sha512-XerGw+P1yq3f7NLoFqFTqfV9KNrUBeRlcBJjDJqzZdkf6yy+kcAiCQ0r5q0Afy3o9YrBrwbmhadANdS7z3M0Dg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -8241,10 +8241,15 @@ type-name@^2.0.0, type-name@^2.0.1:
   resolved "https://registry.yarnpkg.com/type-name/-/type-name-2.0.2.tgz#efe7d4123d8ac52afff7f40c7e4dec5266008fb4"
   integrity sha1-7+fUEj2KxSr/9/QMfk3sUmYAj7Q=
 
-typescript@^3.0.0, typescript@^3.3.3:
+typescript@^3.0.0:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
   integrity sha512-Y21Xqe54TBVp+VDSNbuDYdGw0BpoR/Q6wo/+35M8PAU0vipahnyduJWirxxdxjsAkS7hue53x2zp8gz7F05u0A==
+
+typescript@^3.3.3333:
+  version "3.3.3333"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3333.tgz#171b2c5af66c59e9431199117a3bcadc66fdcfd6"
+  integrity sha512-JjSKsAfuHBE/fB2oZ8NxtRTk5iGcg6hkYXMnZ3Wc+b2RSqejEqTaem11mHASMnFilHrax3sLK0GDzcJrekZYLw==
 
 uglify-js@^2.6:
   version "2.8.29"
