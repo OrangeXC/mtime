@@ -4,7 +4,7 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.17.0",
+    "egg": "^2.18.0",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^4.3.1",
