@@ -193,10 +193,10 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@eggjs/router@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eggjs/router/-/router-1.1.0.tgz#cc1f3b89d62a56a88e91bfac88ad112e0571e369"
-  integrity sha512-Z+r2j9L5bGG2ToBKSk/26GJlVzUoY3sorBenjhIhgBzuUoepuuTRGHrSNYi6AUfJW9C7ulN6Su5fCiRO72DHYQ==
+"@eggjs/router@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eggjs/router/-/router-2.0.0.tgz#9b164dd9d6d97081502e5fdc77a734359513618a"
+  integrity sha512-ViFlE/09kgaSMgH+nGozweJYr0bVBUvG72GmTv+i7OPIxK9uj1Z1GpSTT3zB6mBfnvakvErPR5jUBsl2wBrcHA==
   dependencies:
     co "^4.6.0"
     debug "^3.1.0"
@@ -313,10 +313,10 @@
   resolved "https://registry.yarnpkg.com/@types/koa-compose/-/koa-compose-3.2.2.tgz#dc106e000bbf92a3ac900f756df47344887ee847"
   integrity sha1-3BBuAAu/kqOskA91bfRzRIh+6Ec=
 
-"@types/koa-router@^7.0.39":
-  version "7.0.39"
-  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.39.tgz#6167930552e6686f7b5731aa4618cee44fec6a43"
-  integrity sha512-B8b2qyl7ijLFz7ocqkWva4IJ1n4uY5dK7jtGhQ+YHIGTpzcZr4ldDSjZi/xIM+ko3xSu8oqlGbzWxeVXK3WnNg==
+"@types/koa-router@^7.0.40":
+  version "7.0.40"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.40.tgz#9654dbc43375a0380c44c49c4504b4dbfc3e4e6a"
+  integrity sha512-YK4+WGXch6Ig9PreZ9jlHZb2onm0S1szGw0oQxWvPhoyjSHo1Tq+CpjxMmthEUIQUc9KznOGgehFarOx8XwsFw==
   dependencies:
     "@types/koa" "*"
 
@@ -473,10 +473,10 @@ agent-base@^4.1.0:
   dependencies:
     es6-promisify "^5.0.0"
 
-agentkeepalive@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.0.0.tgz#777e7e4c828bde2690cc7a374ede587d45ba4271"
-  integrity sha512-McCjHBAI3FGTy9XOMDr/8qzXK4VBL3h+O/TqlBdsyiwX21SdPCQhPIX0Y1HS5ctO5m2maVQRJWEn0IrzKRB6oQ==
+agentkeepalive@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/agentkeepalive/-/agentkeepalive-4.0.2.tgz#38a490b779a97bd542d153e5a7da0d1fdef35dd3"
+  integrity sha512-A5gSniD4xMCYtSD4ilUHpQRB9ZbNjtIPittKUv7bA0j0UCwbT3EJBUYLKPJ/dtmaXRYWI2mG4/O90xbi7oahNw==
   dependencies:
     debug "^4.1.0"
     depd "^1.1.2"
@@ -2112,15 +2112,15 @@ cls-bluebird@^2.1.0:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
 
-cluster-client@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-2.1.2.tgz#4e796d42959c882b7a47b11de09d9e462bd4f045"
-  integrity sha512-0DdRIA04ws90MTE+w4WfgiTcBoIgk7HX24KpZSqfmUfuUzlsNBlOL7WvupYfpJNAF0lAOknw2DWmPRxP6K0YlQ==
+cluster-client@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-3.0.0.tgz#d57aaef3732e2fe3a9b6b097790747dfe1d01552"
+  integrity sha512-Fuag7acTYgGveaWjJk4AZXWfOF8m/gHLaZmEs71y/iRLTOLhHtKzaKoZeDEgqnNVDS3eEHmsPbtxmITaA4Aiug==
   dependencies:
     byte "^2.0.0"
     co "^4.6.0"
-    debug "^4.1.0"
-    egg-logger "^2.0.3"
+    debug "^4.1.1"
+    egg-logger "^2.3.1"
     is-type-of "^1.2.1"
     json-stringify-safe "^5.0.1"
     long "^4.0.0"
@@ -2275,12 +2275,12 @@ component-emitter@^1.2.0, component-emitter@^1.2.1:
   resolved "https://registry.yarnpkg.com/component-emitter/-/component-emitter-1.2.1.tgz#137918d6d78283f7df7a6b7c5a63e140e69425e6"
   integrity sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
 
-compressible@~2.0.6:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.12.tgz#c59a5c99db76767e9876500e271ef63b3493bd66"
-  integrity sha1-xZpcmdt2dn6YdlAOJx72OzSTvWY=
+compressible@^2.0.6:
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/compressible/-/compressible-2.0.16.tgz#a49bf9858f3821b64ce1be0296afc7380466a77f"
+  integrity sha512-JQfEOdnI7dASwCuSPWIeVYwc/zMsu/+tRhoUvEfXz2gxOA2DNjmG5vhtFdBlhWPPGo+RdT9S3tgc/uH5qgDiiA==
   dependencies:
-    mime-db ">= 1.30.0 < 2"
+    mime-db ">= 1.38.0 < 2"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -2482,17 +2482,17 @@ debug-log@^1.0.1:
   resolved "https://registry.yarnpkg.com/debug-log/-/debug-log-1.0.1.tgz#2307632d4c04382b8df8a32f70b895046d52745f"
   integrity sha1-IwdjLUwEOCuN+KMvcLiVBG1SdF8=
 
-debug@*, debug@3.1.0, debug@^3.0.1, debug@^3.1.0, debug@~3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@2, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.1, debug@^2.6.2, debug@^2.6.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   integrity sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+  dependencies:
+    ms "2.0.0"
+
+debug@3.1.0, debug@^3.0.1, debug@^3.1.0, debug@~3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
   dependencies:
     ms "2.0.0"
 
@@ -2670,14 +2670,6 @@ detect-port@^1.2.3:
     address "^1.0.1"
     debug "^2.6.0"
 
-detect-port@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/detect-port/-/detect-port-1.3.0.tgz#d9c40e9accadd4df5cac6a782aefd014d573d1f1"
-  integrity sha512-E+B1gzkl2gqxt1IhUzwjrxBKRqx1UzC3WLONHinn8S3T6lwV/agVCyitiFOsGJ/eYuEUBvD71MZHy3Pv1G9doQ==
-  dependencies:
-    address "^1.0.1"
-    debug "^2.6.0"
-
 dicer@0.2.5:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/dicer/-/dicer-0.2.5.tgz#5996c086bb33218c812c090bddc09cd12facb70f"
@@ -2844,12 +2836,12 @@ egg-cookies@^2.2.6:
     scmp "^2.0.0"
     utility "^1.14.0"
 
-egg-core@^4.14.0:
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.14.0.tgz#c4e4d4aaaa3782021e9c143dd7487162e6f6d20c"
-  integrity sha512-1QFpOmchv1caq7fQ/vcxm0cGkGi0dks0X14TR+xWAff2mpnvaYKXzLuqDPVeWy6jaD8HwejjEC4GrzzzzO90Wg==
+egg-core@^4.14.1:
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.14.1.tgz#55da0c5422a7c67630f8c6cf2fd4d0fdf878d5dc"
+  integrity sha512-eGooG2fNEIOdB9ZteX0oRE0WLvmW3dDtkE9Z7IfFHnCeZ+pGaJSTDWsPAceWF1sa3BJ8qW01GGIWINoLM/i3/A==
   dependencies:
-    "@eggjs/router" "^1.1.0"
+    "@eggjs/router" "^2.0.0"
     co "^4.6.0"
     debug "^3.1.0"
     depd "^1.1.2"
@@ -2918,7 +2910,7 @@ egg-logger@^1.7.1:
     mkdirp "^0.5.1"
     utility "^1.11.0"
 
-egg-logger@^2.0.3, egg-logger@^2.3.1:
+egg-logger@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/egg-logger/-/egg-logger-2.3.1.tgz#8835674150d2288499cb2575f226998eb51d12ba"
   integrity sha512-nJtDkXbTRYIwmrB3C6dEh4cVOHDIbfNfW8zQBFr4pguS6gk3CXbmKXqP3TnrOk/2+IP+kd3C0K6rqiXQoZQUxg==
@@ -3030,10 +3022,10 @@ egg-scripts@^2.11.0:
     source-map-support "^0.5.9"
     zlogger "^1.1.0"
 
-egg-security@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/egg-security/-/egg-security-2.4.2.tgz#1172be9f78b123c750ff10473a80fe5ff536cc39"
-  integrity sha512-38aoa8BHz6xfIuCmHOioXl9dMdTPZDLB3R5WqD8x4Fn0NBK4al5cLyDo+63iZoxs1KHUMK4iU9y1MJPkU478Hg==
+egg-security@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/egg-security/-/egg-security-2.4.3.tgz#7296295fd255b869ef361b03facc2ca5a472357a"
+  integrity sha512-DSmbWB36PDDKt8Z2xmdlBFaw6VQZG5mW0Ugb09dIvgwkuQiLNCQA8S52wYM0Lc0fuOadunTTL/nYsoYzPH4q5w==
   dependencies:
     csrf "^3.0.6"
     debug "^3.1.0"
@@ -3067,16 +3059,17 @@ egg-session@^3.1.0:
   dependencies:
     koa-session "^5.7.0"
 
-egg-static@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/egg-static/-/egg-static-2.1.1.tgz#d76ce75162bd27a002e4922a73c868be9e412496"
-  integrity sha512-Rk1cT0TH72JRWnsTQ22XTDODi9StwF3heeT+PUDcMagXvm8jlgbUXTDQ7nghNX0M2aKzFifse9+sNCR81V78cw==
+egg-static@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/egg-static/-/egg-static-2.2.0.tgz#cc707295637191d09a6c7e070cbeb2f6510c6a47"
+  integrity sha512-9Qzllp78ILUfnsnNIQD74xBzsmp5dF/iLMv/qKGPXRK8YefjzCn0UzKDhjSuw7BOH3or3VmEgI4U5zThPnuNUQ==
   dependencies:
-    koa-compose "^4.0.0"
+    is-type-of "^1.2.1"
+    koa-compose "^4.1.0"
     koa-range "^0.3.0"
-    koa-static-cache "^5.1.1"
+    koa-static-cache "^5.1.2"
     mkdirp "^0.5.1"
-    ylru "^1.2.0"
+    ylru "^1.2.1"
 
 egg-ts-helper@^1.22.0:
   version "1.22.0"
@@ -3133,26 +3126,25 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.17.0.tgz#0045b025a622075f9c9d12ec1e3d3a9268848afa"
-  integrity sha512-XerGw+P1yq3f7NLoFqFTqfV9KNrUBeRlcBJjDJqzZdkf6yy+kcAiCQ0r5q0Afy3o9YrBrwbmhadANdS7z3M0Dg==
+egg@^2.18.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.18.0.tgz#73b013fde38aaf8d3f62f59836c3d9e28fbea66e"
+  integrity sha512-jXSSYhibS/MQOAhXbdwMMTKxiVpLvRcLVAB+VB6vQaazkQBAAc4psGxndrOiQFAp254bp4wwz56RWZ9TJ4qD5Q==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
-    "@types/koa-router" "^7.0.39"
+    "@types/koa-router" "^7.0.40"
     "@types/urllib" "^2.28.1"
     accepts "^1.3.5"
-    agentkeepalive "^4.0.0"
+    agentkeepalive "^4.0.2"
     cache-content-type "^1.0.1"
     circular-json-for-egg "^1.0.0"
-    cluster-client "^2.1.2"
+    cluster-client "^3.0.0"
     debug "^4.1.1"
     delegates "^1.0.0"
-    detect-port "^1.3.0"
     egg-cluster "^1.22.2"
     egg-cookies "^2.2.6"
-    egg-core "^4.14.0"
+    egg-core "^4.14.1"
     egg-development "^2.4.2"
     egg-i18n "^2.0.0"
     egg-jsonp "^2.0.0"
@@ -3161,9 +3153,9 @@ egg@^2.17.0:
     egg-multipart "^2.4.0"
     egg-onerror "^2.1.0"
     egg-schedule "^3.6.0"
-    egg-security "^2.4.2"
+    egg-security "^2.4.3"
     egg-session "^3.1.0"
-    egg-static "^2.1.1"
+    egg-static "^2.2.0"
     egg-view "^2.1.2"
     egg-watcher "^3.1.0"
     extend2 "^1.0.0"
@@ -4047,15 +4039,10 @@ fs-minipass@^1.2.5:
   dependencies:
     minipass "^2.2.1"
 
-fs-readdir-recursive@^1.1.0:
+fs-readdir-recursive@^1.0.0, fs-readdir-recursive@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.1.0.tgz#e32fc030a2ccee44a6b5371308da54be0b397d27"
   integrity sha512-GNanXlVr2pf02+sPN40XN8HG+ePaNcvM0q5mZBd668Obwb0yD5GiUbZOFgwn8kGMY6I3mdyDJzieUy3PTYyTRA==
-
-fs-readdir-recursive@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fs-readdir-recursive/-/fs-readdir-recursive-1.0.0.tgz#8cd1745c8b4f8a29c8caec392476921ba195f560"
-  integrity sha1-jNF0XItPiinIyuw5JHaSG6GV9WA=
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -5318,16 +5305,16 @@ koa-session@^5.7.0:
     pedding "^1.1.0"
     uid-safe "^2.1.3"
 
-koa-static-cache@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/koa-static-cache/-/koa-static-cache-5.1.1.tgz#d73dc79183fd052f86a47a0b64080d8670de8a38"
-  integrity sha1-1z3HkYP9BS+GpHoLZAgNhnDeijg=
+koa-static-cache@^5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/koa-static-cache/-/koa-static-cache-5.1.2.tgz#49b592007157b164f5e9df5b276e305c8be5016a"
+  integrity sha512-EhnVBF9mkbp7bijDz2+yg5KxXFsUYUQCOqGy78bAhJp2PRMCMYV7nG/f7k9/liw+43u2Uow0v6ZZ025qBCYsGw==
   dependencies:
-    compressible "~2.0.6"
-    debug "*"
-    fs-readdir-recursive "~1.0.0"
-    mime-types "~2.1.8"
-    mz "~2.6.0"
+    compressible "^2.0.6"
+    debug "^3.1.0"
+    fs-readdir-recursive "^1.0.0"
+    mime-types "^2.1.8"
+    mz "^2.7.0"
 
 koa@^2.5.2:
   version "2.5.3"
@@ -5683,10 +5670,10 @@ micromatch@^3.1.8:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-"mime-db@>= 1.30.0 < 2":
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.32.0.tgz#485b3848b01a3cda5f968b4882c0771e58e09414"
-  integrity sha512-+ZWo/xZN40Tt6S+HyakUxnSOgff+JEdaneLWIm0Z6LmpCn5DMcZntLyUY5c/rTDog28LhXLKOUZKoTxTCAdBVw==
+"mime-db@>= 1.38.0 < 2", mime-db@~1.38.0:
+  version "1.38.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.38.0.tgz#1a2aab16da9eb167b49c6e4df2d9c68d63d8e2ad"
+  integrity sha512-bqVioMFFzc2awcdJZIzR3HjZFX20QhilVS7hytkKrv7xFAn8bM1gzc/FOX2awLISvWe0PV8ptFKcon+wZ5qYkg==
 
 mime-db@~1.30.0:
   version "1.30.0"
@@ -5698,7 +5685,7 @@ mime-db@~1.33.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.33.0.tgz#a3492050a5cb9b63450541e39d9788d2272783db"
   integrity sha512-BHJ/EKruNIqJf/QahvxwQZXKygOQ256myeN/Ew+THcAa5q+PjyTTMMeNQC4DZw5AwfvelsUrA6B67NKMqXDbzQ==
 
-mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7, mime-types@~2.1.8:
+mime-types@^2.1.12, mime-types@~2.1.15, mime-types@~2.1.7:
   version "2.1.17"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.17.tgz#09d7a393f03e995a79f8af857b70a9e0ab16557a"
   integrity sha1-Cdejk/A+mVp5+K+Fe3Cp4KsWVXo=
@@ -5711,6 +5698,13 @@ mime-types@^2.1.18, mime-types@~2.1.18:
   integrity sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
   dependencies:
     mime-db "~1.33.0"
+
+mime-types@^2.1.8:
+  version "2.1.22"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.22.tgz#fe6b355a190926ab7698c9a0556a11199b2199bd"
+  integrity sha512-aGl6TZGnhm/li6F7yx82bJiBZwgiEa4Hf6CNr8YO+r5UHr53tSTYZb102zyU50DOWWKeOv0uQLRL0/9EiKWCog==
+  dependencies:
+    mime-db "~1.38.0"
 
 mime@^1.4.1:
   version "1.6.0"
@@ -5918,15 +5912,6 @@ mz@^2.6.0, mz@^2.7.0, mz@~2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/mz/-/mz-2.7.0.tgz#95008057a56cafadc2bc63dde7f9ff6955948e32"
   integrity sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==
-  dependencies:
-    any-promise "^1.0.0"
-    object-assign "^4.0.1"
-    thenify-all "^1.0.0"
-
-mz@~2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/mz/-/mz-2.6.0.tgz#c8b8521d958df0a4f2768025db69c719ee4ef1ce"
-  integrity sha1-yLhSHZWN8KTydoAl22nHGe5O8c4=
   dependencies:
     any-promise "^1.0.0"
     object-assign "^4.0.1"
