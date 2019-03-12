@@ -2932,10 +2932,10 @@ egg-logrotator@^3.0.5:
     moment "^2.22.2"
     mz "^2.7.0"
 
-egg-mock@^3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.21.0.tgz#751f0c065d612efbc938096e2f04e569402e45cf"
-  integrity sha512-0r1Fqg910cm3Ws+j8WEtk8XjrRAFoy7AzQXGMzhB8CxuKZM4ZU45fnWHSB0kdClMtatWTyLzYDtVDBc5ASd1PQ==
+egg-mock@^3.22.1:
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.22.1.tgz#7be75c94248983c124414c5e3b2227f2776b9f70"
+  integrity sha512-dlgSas0cjyhNAkAuAFy8T3zcA+DCl11TGL1yvf+IJ0gHyZW9A/jItLQH06FYBKsvdoXvCnzAnMM0cQ1TSke+hw==
   dependencies:
     "@types/power-assert" "^1.5.0"
     await-event "^2.1.0"
@@ -3399,10 +3399,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.1.0.tgz#c83a75bf6df870285ce6c172a13a10b35bed9a0e"
-  integrity sha512-u6ovPY8GUe/Hr5s3VZcjidkLuX+0NZAhh+PRrCx+AtU0Tp+1Z4fQ3JMlgoPHOioxtrj+1GE1s5799xl1FYLTrg==
+eslint-config-egg@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.2.0.tgz#1f5f9688ed068508212c2bbebd5fb2634932a9b5"
+  integrity sha512-GWwX2zQt5RrupD+dPK9fyc2s1atcEM2AnuKbDtGC9lbxxnmGXiORXnZUnKV3y7p8dOcvqne78eNt+hsRpxM6zA==
   dependencies:
     babel-eslint "^8.2.6"
     eslint-plugin-eggache "^1.0.0"
