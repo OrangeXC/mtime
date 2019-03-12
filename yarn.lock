@@ -2112,15 +2112,15 @@ cls-bluebird@^2.1.0:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
 
-cluster-client@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-3.0.0.tgz#d57aaef3732e2fe3a9b6b097790747dfe1d01552"
-  integrity sha512-Fuag7acTYgGveaWjJk4AZXWfOF8m/gHLaZmEs71y/iRLTOLhHtKzaKoZeDEgqnNVDS3eEHmsPbtxmITaA4Aiug==
+cluster-client@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/cluster-client/-/cluster-client-3.0.1.tgz#739cb529a09742ed448b1281a0ef516ac2459c61"
+  integrity sha512-j5xReT5tECbiUME8TCNDU5ise34vSqbhWMs7Ni06VDKlKvRVAlUbrgYCFQc27Bw7MF8H+QEJ/8GJtk/HGx4u6w==
   dependencies:
     byte "^2.0.0"
     co "^4.6.0"
     debug "^4.1.1"
-    egg-logger "^2.3.1"
+    egg-logger "^2.3.2"
     is-type-of "^1.2.1"
     json-stringify-safe "^5.0.1"
     long "^4.0.0"
@@ -2769,10 +2769,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.11.0:
-  version "4.11.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.11.0.tgz#39f0dc96096d441aae053f39e53f359d0fe979fa"
-  integrity sha512-BlBpiZoMeX+zRceEiS7Epj/jcE08xpC7ne4I0ulwpx2xbGVlXThLUJgkQX01u6w5iW0BuiFzKfb5JgyCQAH4OQ==
+egg-bin@^4.11.1:
+  version "4.11.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.11.1.tgz#b35c2c8459d92d8aa58208a363eac476d1af7ede"
+  integrity sha512-gJARpYxQtptNa8QpGyBVXAo3YP8c2hUSQgzNhjaor3kA9ws3Sv7//xZh4TBR0K+0S51M0gfzmWBrlkF+OpXpQw==
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -2804,10 +2804,10 @@ egg-ci@^1.11.0:
   dependencies:
     nunjucks "^3.1.3"
 
-egg-cluster@^1.22.2:
-  version "1.22.2"
-  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-1.22.2.tgz#31cb03b0ad60045bf87f975897c1f9c120192b9a"
-  integrity sha512-WMsLFmtSzhb5X4IsyPYy11maAefh3ATgIy8ygaTLScnnZMpk4cAshbDZrTXbMi9LQ5n6rg140NIbaY4A+dpvNQ==
+egg-cluster@^1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/egg-cluster/-/egg-cluster-1.23.0.tgz#b5316383eeeaf837af40f10eb7974b12f30f0c68"
+  integrity sha512-pGVsWB3ThZotNLOzps3Als6LnmCB40o+k5iXM2wMdEYuq0i+DpVzT0bsu7zGj9OzbcwO7tByX0Kol07O9gsX2w==
   dependencies:
     await-event "^2.1.0"
     cfork "^1.7.1"
@@ -2836,10 +2836,10 @@ egg-cookies@^2.2.6:
     scmp "^2.0.0"
     utility "^1.14.0"
 
-egg-core@^4.14.1:
-  version "4.14.1"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.14.1.tgz#55da0c5422a7c67630f8c6cf2fd4d0fdf878d5dc"
-  integrity sha512-eGooG2fNEIOdB9ZteX0oRE0WLvmW3dDtkE9Z7IfFHnCeZ+pGaJSTDWsPAceWF1sa3BJ8qW01GGIWINoLM/i3/A==
+egg-core@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.15.0.tgz#c25bcee21c5994eb75f885e617330d5a736e10fe"
+  integrity sha512-wORk3qF4NWdvJISc691yFHMwotwsTRqxTuOhbaK1fZXSC/B6L7zDv80XL1yKiXKtxw1khhQNC5JabqdGR71ybw==
   dependencies:
     "@eggjs/router" "^2.0.0"
     co "^4.6.0"
@@ -2910,10 +2910,10 @@ egg-logger@^1.7.1:
     mkdirp "^0.5.1"
     utility "^1.11.0"
 
-egg-logger@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/egg-logger/-/egg-logger-2.3.1.tgz#8835674150d2288499cb2575f226998eb51d12ba"
-  integrity sha512-nJtDkXbTRYIwmrB3C6dEh4cVOHDIbfNfW8zQBFr4pguS6gk3CXbmKXqP3TnrOk/2+IP+kd3C0K6rqiXQoZQUxg==
+egg-logger@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/egg-logger/-/egg-logger-2.3.2.tgz#a049716ebaa3550ee5754f7d7e8355ba9ad96420"
+  integrity sha512-KqY3yoSFI2KRRMfPMG86+3LKysJ0snNodsC0e70TbqW6fQWtDhd4RA97oipl1geA6a3nWKoAxWJNH1wraSXtrg==
   dependencies:
     chalk "^2.4.1"
     circular-json-for-egg "^1.0.0"
@@ -2932,10 +2932,10 @@ egg-logrotator@^3.0.5:
     moment "^2.22.2"
     mz "^2.7.0"
 
-egg-mock@^3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.21.0.tgz#751f0c065d612efbc938096e2f04e569402e45cf"
-  integrity sha512-0r1Fqg910cm3Ws+j8WEtk8XjrRAFoy7AzQXGMzhB8CxuKZM4ZU45fnWHSB0kdClMtatWTyLzYDtVDBc5ASd1PQ==
+egg-mock@^3.22.1:
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.22.1.tgz#7be75c94248983c124414c5e3b2227f2776b9f70"
+  integrity sha512-dlgSas0cjyhNAkAuAFy8T3zcA+DCl11TGL1yvf+IJ0gHyZW9A/jItLQH06FYBKsvdoXvCnzAnMM0cQ1TSke+hw==
   dependencies:
     "@types/power-assert" "^1.5.0"
     await-event "^2.1.0"
@@ -3126,10 +3126,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.19.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.19.0.tgz#f57cf27ec5a10aeed2b49a33d79b2b6d4fc90e9f"
-  integrity sha512-klSWPHAXpluFDTDSIIWRjIGpOlDhvoOatZ8QjTuzZ2g4xsoPScWi5Yo9FkefMhYyKlh//vTHh0y6ZLGfPf0vNw==
+egg@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.20.0.tgz#fbb8774924fc096f6d2d5fe888d6efb196ec762e"
+  integrity sha512-zKD2pl0zrnAzojgaVAh9gB/OTJzEIsnF8lfQqg1G2o27ow98QKYh2m4yXFEqTq+q+I+Ce70ogaHIfgm6m33R9Q==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -3139,16 +3139,16 @@ egg@^2.19.0:
     agentkeepalive "^4.0.2"
     cache-content-type "^1.0.1"
     circular-json-for-egg "^1.0.0"
-    cluster-client "^3.0.0"
+    cluster-client "^3.0.1"
     debug "^4.1.1"
     delegates "^1.0.0"
-    egg-cluster "^1.22.2"
+    egg-cluster "^1.23.0"
     egg-cookies "^2.2.6"
-    egg-core "^4.14.1"
+    egg-core "^4.15.0"
     egg-development "^2.4.2"
     egg-i18n "^2.0.0"
     egg-jsonp "^2.0.0"
-    egg-logger "^2.3.1"
+    egg-logger "^2.3.2"
     egg-logrotator "^3.0.5"
     egg-multipart "^2.4.0"
     egg-onerror "^2.1.0"
@@ -3399,10 +3399,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.1.0.tgz#c83a75bf6df870285ce6c172a13a10b35bed9a0e"
-  integrity sha512-u6ovPY8GUe/Hr5s3VZcjidkLuX+0NZAhh+PRrCx+AtU0Tp+1Z4fQ3JMlgoPHOioxtrj+1GE1s5799xl1FYLTrg==
+eslint-config-egg@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.2.0.tgz#1f5f9688ed068508212c2bbebd5fb2634932a9b5"
+  integrity sha512-GWwX2zQt5RrupD+dPK9fyc2s1atcEM2AnuKbDtGC9lbxxnmGXiORXnZUnKV3y7p8dOcvqne78eNt+hsRpxM6zA==
   dependencies:
     babel-eslint "^8.2.6"
     eslint-plugin-eggache "^1.0.0"
