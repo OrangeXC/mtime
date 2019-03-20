@@ -21,7 +21,7 @@
     "egg-mock": "^3.22.1",
     "eslint": "^5.15.3",
     "eslint-config-egg": "^7.2.0",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.3.4000",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
