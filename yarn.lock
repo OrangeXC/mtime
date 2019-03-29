@@ -267,6 +267,13 @@
     "@types/keygrip" "*"
     "@types/node" "*"
 
+"@types/depd@^1.1.32":
+  version "1.1.32"
+  resolved "https://registry.yarnpkg.com/@types/depd/-/depd-1.1.32.tgz#7937f66870d0cd7a9881152e4eb02c8c43298f11"
+  integrity sha512-kB2cpXs3A0TGWl4a4h74yIwvclYZUTW6Irpee/3Dc1s4Cr5rGPHtpGPpBBpEV1MaKH5z/oul+57oDkEkeRXRnw==
+  dependencies:
+    "@types/node" "*"
+
 "@types/empower@*":
   version "1.2.30"
   resolved "https://registry.yarnpkg.com/@types/empower/-/empower-1.2.30.tgz#c7cfc14b3a61e54c74c674c1fbc91ba2df0d1392"
@@ -784,6 +791,27 @@ autod@^3.0.1:
     glob "^7.1.2"
     minimatch "^3.0.4"
     printable "^0.0.3"
+    urllib "^2.25.1"
+
+autod@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/autod/-/autod-3.1.0.tgz#5e27278b868b8a13b0a4b6f304ea50ba783f28e9"
+  integrity sha512-sx9phRpnxeAD4tbsqXyidDLuOWuXRIbRUEj8i9GXO9Izucrq4E+LRFPGXayEVkF4SfUJRumLTNblxiz7KfzxgQ==
+  dependencies:
+    babel-core "^6.26.0"
+    babel-preset-env "^1.6.1"
+    babel-preset-react "^6.24.1"
+    babel-preset-stage-0 "^6.24.1"
+    co "^4.6.0"
+    colors "^1.1.2"
+    commander "^2.11.0"
+    crequire "^1.8.1"
+    debug "^3.1.0"
+    fs-readdir-recursive "^1.1.0"
+    glob "^7.1.2"
+    minimatch "^3.0.4"
+    printable "^0.0.3"
+    semver "^6.0.0"
     urllib "^2.25.1"
 
 await-event@^2.1.0:
@@ -2235,6 +2263,11 @@ commander@^2.15.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
   integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
 
+comment-parser@^0.5.4:
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-0.5.4.tgz#089840b9cccacad2b769b231ed43081d501b9487"
+  integrity sha512-0h7W6Y1Kb6zKQMJqdX41C5qf9ITCVIsD2qP2RaqDF3GFkXFrmuAuv5zUOuo19YzyC9scjBNpqzuaRQ2Sy5pxMQ==
+
 common-bin@^2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/common-bin/-/common-bin-2.7.3.tgz#9841b72d954ad0d62f08b0f530fde56aff0154e2"
@@ -2769,10 +2802,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.11.1.tgz#b35c2c8459d92d8aa58208a363eac476d1af7ede"
-  integrity sha512-gJARpYxQtptNa8QpGyBVXAo3YP8c2hUSQgzNhjaor3kA9ws3Sv7//xZh4TBR0K+0S51M0gfzmWBrlkF+OpXpQw==
+egg-bin@^4.12.1:
+  version "4.12.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.12.1.tgz#20003da1eddabc4b4b92cc68cb660a17679e1967"
+  integrity sha512-1AhkOBZVqaJFZMfznNHnGsKY17q+08oJMGQkteTJYyOSy41L/WU2xO4FOEeVM3dRRNw5vHT7LIPM1uF818LPag==
   dependencies:
     autod "^3.0.1"
     chalk "^2.4.1"
@@ -2782,7 +2815,7 @@ egg-bin@^4.11.1:
     detect-port "^1.2.3"
     egg-ts-helper "^1.22.0"
     egg-utils "^2.4.0"
-    espower-typescript "^9.0.1"
+    espower-typescript "9.0.1"
     globby "^8.0.1"
     inspector-proxy "^1.2.1"
     intelli-espower-loader "^1.0.1"
@@ -2836,12 +2869,14 @@ egg-cookies@^2.2.6:
     scmp "^2.0.0"
     utility "^1.14.0"
 
-egg-core@^4.15.0:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.15.0.tgz#c25bcee21c5994eb75f885e617330d5a736e10fe"
-  integrity sha512-wORk3qF4NWdvJISc691yFHMwotwsTRqxTuOhbaK1fZXSC/B6L7zDv80XL1yKiXKtxw1khhQNC5JabqdGR71ybw==
+egg-core@^4.16.1:
+  version "4.16.1"
+  resolved "https://registry.yarnpkg.com/egg-core/-/egg-core-4.16.1.tgz#50a8e9ab2f54cc02a1f2460e715aa72d4dc50522"
+  integrity sha512-5/+Am19PugmdkOKz+B/zGNHlQRZ3UWr+N10ulyJ0rS/5FdTj4VlE9zYyH7LuESru5TCo6ejnre4J3CL8dTT+Ug==
   dependencies:
     "@eggjs/router" "^2.0.0"
+    "@types/depd" "^1.1.32"
+    "@types/koa" "^2.0.48"
     co "^4.6.0"
     debug "^3.1.0"
     depd "^1.1.2"
@@ -3126,10 +3161,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.20.1.tgz#e6ff1fc81cd8863fcdcbb83d700b04554c2cc740"
-  integrity sha512-uZCfNLXyQIMv9sdidZfs3jg8ZnSmAYTgp51pvr7aNr2g8YGIVyK1qF4TggSKuMkcYsXAprUgDm6iQQBd8JX0Lg==
+egg@^2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.20.2.tgz#1a532a5850820bd6b864b17d7108287f9656906f"
+  integrity sha512-oP+98uklZ1E5M4clHWs6qzZXnZNV6buHL+eM8w7F88MJID4mMIFr3K7aN/sID20gSP4WvBJZ515HnRWWvVvmzg==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -3144,7 +3179,7 @@ egg@^2.20.1:
     delegates "^1.0.0"
     egg-cluster "^1.23.0"
     egg-cookies "^2.2.6"
-    egg-core "^4.15.0"
+    egg-core "^4.16.1"
     egg-development "^2.4.2"
     egg-i18n "^2.0.0"
     egg-jsonp "^2.0.0"
@@ -3399,14 +3434,15 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.2.0.tgz#1f5f9688ed068508212c2bbebd5fb2634932a9b5"
-  integrity sha512-GWwX2zQt5RrupD+dPK9fyc2s1atcEM2AnuKbDtGC9lbxxnmGXiORXnZUnKV3y7p8dOcvqne78eNt+hsRpxM6zA==
+eslint-config-egg@^7.3.1:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.3.1.tgz#478b4097dff49927509cadefbd933f623ecdf7b7"
+  integrity sha512-lD3YAPu8AQdWvTAliwU7G2ZEelkU19wwxZyrbC7YE7hd0I21Odgcs7jtxoecSuIM9z0TaAM3Pq55fxFdgSi32g==
   dependencies:
     babel-eslint "^8.2.6"
     eslint-plugin-eggache "^1.0.0"
     eslint-plugin-import "^2.14.0"
+    eslint-plugin-jsdoc "^4.1.1"
     eslint-plugin-jsx-a11y "^6.1.1"
     eslint-plugin-react "^7.11.1"
 
@@ -3446,6 +3482,15 @@ eslint-plugin-import@^2.14.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
+
+eslint-plugin-jsdoc@^4.1.1:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-4.6.0.tgz#b9294ddfa060805388f75865a03a7942a2d68047"
+  integrity sha512-R5O57t1JdIkuKLx2rhAHu3J2l1Me/Yr/I9wbyD4/hL6T82G6SKu/9D0W/PxkitijY3tI4c7nRHXEJpCPrnBXug==
+  dependencies:
+    comment-parser "^0.5.4"
+    jsdoctypeparser "^2.0.0-alpha-8"
+    lodash "^4.17.11"
 
 eslint-plugin-jsx-a11y@^6.1.1:
   version "6.1.1"
@@ -3595,7 +3640,7 @@ espower-source@^2.3.0:
     path-is-absolute "^1.0.0"
     xtend "^4.0.0"
 
-espower-typescript@^9.0.1:
+espower-typescript@9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/espower-typescript/-/espower-typescript-9.0.1.tgz#536140750f8509f4bdc5db7461c0bf60052c0658"
   integrity sha512-WmEm8Hs0SX06izEdi4Qlu3GPOgshejXXA22OA5i+9oN0yC9pWLxlomyPkNkksAQl+ZV5dOGyTdC4gBAEfwqBww==
@@ -5111,6 +5156,11 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+
+jsdoctypeparser@^2.0.0-alpha-8:
+  version "2.0.0-alpha-8"
+  resolved "https://registry.yarnpkg.com/jsdoctypeparser/-/jsdoctypeparser-2.0.0-alpha-8.tgz#baf137fb8e2a558810adcf19d2d2a2f680e90a5f"
+  integrity sha1-uvE3+44qVYgQrc8Z0tKi9oDpCl8=
 
 jsesc@^1.3.0:
   version "1.3.0"
@@ -7367,6 +7417,11 @@ semver@^5.5.1:
   version "5.5.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
   integrity sha512-PqpAxfrEhlSUWge8dwIp4tZnQ25DIOthpiaHNIthsjEFQD6EvqUKUDM7L8O2rShkFccYo1VjJR0coWfNkCubRw==
+
+semver@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
+  integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
 
 semver@~5.0.1:
   version "5.0.3"
