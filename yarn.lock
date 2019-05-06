@@ -2473,10 +2473,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.12.3:
-  version "4.12.3"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.12.3.tgz#b90db2954bac856b1d051411599b4aa99b1a788f"
-  integrity sha512-D0Kv8ChiLjtU/7mvPwNH1BSyft6+rGXkvLyGQHWL3E6kJzbsW+aYEQH2fE/ceRus9M3NsU0AX0RRM/BmsDWQhA==
+egg-bin@^4.13.0:
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.13.0.tgz#d79a730eb76f8b846cda14c97dec53e06984e1aa"
+  integrity sha512-8oLhVtEzOo3NA94uCM95gIq/kb7CtWaijq8UI0okxDWIlcslp1VxsOnqGAcO9Q16dyy6xvP4sQs7lTFKEcnZog==
   dependencies:
     autod "^3.1.0"
     chalk "^2.4.2"
@@ -2814,10 +2814,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@^2.21.1:
-  version "2.21.1"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.21.1.tgz#c3f6a32a3827845d5d646a8ce95b8aa7f03f5213"
-  integrity sha512-EJWQbEx+UYJ3JU2TXOdpoKEg5bkRkH4HOph7NTYUOzW6zAQYUg06g8tv0Ga3bHB7kI2WW7shotj7Roi9sfMlWg==
+egg@^2.22.2:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.22.2.tgz#bd2f95e4b4667838d9d9e4b26982d92bcae15f89"
+  integrity sha512-6opWoBpQSqEOHJmSQnf9dx1HRsO7KRimeqGscbkoZisDcZW74u/mxAPxck6QyLB4EuPGkYNAfU8pPVOBCz6RTQ==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -7041,10 +7041,10 @@ typescript@^3.0.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
   integrity sha512-3NSMb2VzDQm8oBTLH6Nj55VVtUEpe/rgkIzMir0qVoLyjDZlnMBva0U6vDiV3IH+sl/Yu6oP5QwsAQtHPmDd2Q==
 
-typescript@^3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
-  integrity sha512-FFgHdPt4T/duxx6Ndf7hwgMZZjZpB+U0nMNGVCYPq0rEzWKjEDobm4J6yb3CS7naZ0yURFqdw9Gwc7UOh/P9oQ==
+typescript@^3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
+  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
 uglify-js@^3.1.4:
   version "3.5.2"
