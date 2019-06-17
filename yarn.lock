@@ -2736,10 +2736,10 @@ egg-security@^2.4.3:
     type-is "^1.6.15"
     xss "^1.0.3"
 
-egg-sequelize@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-5.0.0.tgz#7e2eb1e3fee94db980453d70332d28a6e8b8f028"
-  integrity sha512-dNKeWoratsWLPJfX2l3sdbL0Ag0AFm9gdbAHk5Cko1K6z4mrpo/bhL/M6d7rCBjFQCf9noCfNbkcHaKSXbMM1A==
+egg-sequelize@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-5.1.0.tgz#5bff30254e23b77d334f44c80a3eefbd7ac37d75"
+  integrity sha512-II9+yFEj4/tfzmWNmJiim1lfR62USkW0H1z4Fa3ZmddgjRAD7Rl8OM53QIyo0iBlPvqBVVGfCuyYYLP1gAyJZw==
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
@@ -7090,10 +7090,10 @@ typescript@^3.0.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.1.tgz#b6691be11a881ffa9a05765a205cb7383f3b63c6"
   integrity sha512-3NSMb2VzDQm8oBTLH6Nj55VVtUEpe/rgkIzMir0qVoLyjDZlnMBva0U6vDiV3IH+sl/Yu6oP5QwsAQtHPmDd2Q==
 
-typescript@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.1.tgz#ba72a6a600b2158139c5dd8850f700e231464202"
-  integrity sha512-64HkdiRv1yYZsSe4xC1WVgamNigVYjlssIoaH2HcZF0+ijsk5YK2g0G34w9wJkze8+5ow4STd22AynfO6ZYYLw==
+typescript@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
+  integrity sha512-7KxJovlYhTX5RaRbUdkAXN1KUZ8PwWlTzQdHV6xNqvuFOs7+WBo10TQUqT19Q/Jz2hk5v9TQDIhyLhhJY4p5AA==
 
 uglify-js@^3.1.4:
   version "3.5.2"
