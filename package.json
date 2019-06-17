@@ -7,7 +7,7 @@
     "egg": "^2.22.2",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
-    "egg-sequelize": "^5.0.0",
+    "egg-sequelize": "^5.1.0",
     "egg-view-nunjucks": "^2.2.0",
     "mockjs": "^1.0.1-beta3",
     "mysql2": "^1.6.5",
@@ -21,7 +21,7 @@
     "egg-mock": "^3.23.1",
     "eslint": "^5.16.0",
     "eslint-config-egg": "^7.4.1",
-    "typescript": "^3.5.1",
+    "typescript": "^3.5.2",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
