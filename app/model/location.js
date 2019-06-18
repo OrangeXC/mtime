@@ -12,11 +12,11 @@ module.exports = app => {
     count: INTEGER,
     pinyin_short: STRING(20),
     pinyin_full: STRING(50),
-    created_at: {
+    createdAt: {
       type: DATE,
       default: new Date(),
     },
-    updated_at: {
+    updatedAt: {
       type: DATE,
       default: new Date(),
     },
