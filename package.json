@@ -4,7 +4,7 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.22.2",
+    "egg": "^2.23.0",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^5.2.0",
@@ -19,7 +19,7 @@
     "egg-bin": "^4.13.0",
     "egg-ci": "^1.12.0",
     "egg-mock": "^3.23.1",
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "eslint-config-egg": "^7.4.1",
     "typescript": "^3.5.3",
     "webstorm-disable-index": "^1.2.0"
