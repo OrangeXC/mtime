@@ -20,7 +20,7 @@
     "egg-ci": "^1.13.0",
     "egg-mock": "^3.23.1",
     "eslint": "^6.2.2",
-    "eslint-config-egg": "^7.5.0",
+    "eslint-config-egg": "^7.5.1",
     "typescript": "^3.5.3",
     "webstorm-disable-index": "^1.2.0"
   },

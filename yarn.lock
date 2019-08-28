@@ -3097,10 +3097,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.5.0.tgz#15349831c2694578f7154d4e280f2303cd073322"
-  integrity sha512-uFkQ832xoR2kMN2jTck5Yd5yg/11VvjqPXKfNJ1A0GXHqGs/yrmKavoUPTkPe+tsXtZh+1VtC2xepB8RZ1kA9Q==
+eslint-config-egg@^7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.5.1.tgz#d62a345e1a541cce7601750941b5840c476e27cc"
+  integrity sha512-HNu+M0Od4HH7SMqo17oFe2n2mwMcKaNA52SQuCXIb3i0KazBxvaaa9DmNvoymQXlbxsZYtSN1J1eKmfZJiISkg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.0.0"
     "@typescript-eslint/parser" "^2.0.0"
