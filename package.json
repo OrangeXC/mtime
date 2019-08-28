@@ -9,8 +9,6 @@
     "egg-scripts": "^2.11.0",
     "egg-sequelize": "^5.2.0",
     "egg-view-nunjucks": "^2.2.0",
-    "mockjs": "^1.0.1-beta3",
-    "mysql2": "^1.6.5",
     "mz": "^2.7.0"
   },
   "devDependencies": {
@@ -21,29 +19,26 @@
     "egg-mock": "^3.23.1",
     "eslint": "^6.2.2",
     "eslint-config-egg": "^7.5.1",
-    "typescript": "^3.5.3",
-    "webstorm-disable-index": "^1.2.0"
+    "mockjs": "^1.0.1-beta3",
+    "typescript": "^3.5.3"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon",
-    "stop": "egg-scripts stop",
+    "start": "egg-scripts start --daemon --title=egg-server-showcase",
+    "stop": "egg-scripts stop --title=egg-server-showcase",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
-    "test": "npm run lint --fix && npm run test-local",
+    "test": "npm run lint && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod",
-    "migrate:new": "egg-sequelize migration:create",
-    "migrate:up": "egg-sequelize db:migrate",
-    "migrate:down": "egg-sequelize db:migrate:undo"
+    "autod": "autod"
   },
   "ci": {
-    "version": "8, 9"
+    "version": "10"
   },
   "repository": {
     "type": "git",

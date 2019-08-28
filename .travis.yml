@@ -1,7 +1,10 @@
+sudo: false
 language: node_js
 node_js:
-  - 10
+  - '10'
+before_install:
+  - npm i npminstall -g
 install:
-  - yarn
+  - npminstall
 script:
-  - yarn test
+  - npm run ci
