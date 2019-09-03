@@ -37,15 +37,19 @@ $ yarn dev
 $ open http://localhost:7001
 ```
 
-### Deploy
+## Deploy
 
 ```bash
 $ yarn start
 $ yarn stop
 ```
 
-### npm scripts
+## Npm scripts
 
 - Use `yarn lint` to check code style.
 - Use `yarn test` to run unit test.
 - Use `yarn autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
+
+## License
+
+Mtime is [MIT licensed](https://github.com/OrangeXC/mtime/blob/master/LICENSE).
