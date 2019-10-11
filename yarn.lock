@@ -2801,11 +2801,12 @@ egg-schedule@^3.6.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
-egg-scripts@^2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.11.0.tgz#61c94d7c204ca5f887cc522dd67f95f722169741"
-  integrity sha512-bjswmoSH2Xk1XZazCgWpr231a/8yPGjseEFflo1iS6Gqrc7YtWXotbz++vYUuu1AMv7J1cdcrjAg+aGuSaUhoA==
+egg-scripts@^2.11.1:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.11.1.tgz#bd7bd82c557ba170a8811c13157a9ee353c1ee60"
+  integrity sha512-HfHhFzf8zLCmV3l3i6IyhKrWKle1zfKy8adNk+UUwDh+tiGuq3qO2f4Lkbsi6WJrwvoNV46TdNVE1fseEVk5Dg==
   dependencies:
+    await-event "^2.1.0"
     common-bin "^2.8.0"
     debug "^4.1.0"
     egg-utils "^2.4.1"
@@ -7201,10 +7202,10 @@ typescript@^3.0.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
   integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
-typescript@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
-  integrity sha512-N7bceJL1CtRQ2RiG0AQME13ksR7DiuQh/QehubYcghzv20tnh+MQnQIuJddTmsbqYj+dztchykemz0zFzlvdQw==
+typescript@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha512-unoCll1+l+YK4i4F8f22TaNVPRHcD9PA3yCuZ8g5e0qGqlVlJ/8FSateOLLSagn+Yg5+ZwuPkL8LFUc0Jcvksg==
 
 uglify-js@^3.1.4:
   version "3.6.0"
