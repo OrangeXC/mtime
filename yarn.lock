@@ -5116,10 +5116,10 @@ mocha@^6.0.2:
     yargs-parser "13.0.0"
     yargs-unparser "1.5.0"
 
-mockjs@^1.0.1-beta3:
-  version "1.0.1-beta3"
-  resolved "https://registry.yarnpkg.com/mockjs/-/mockjs-1.0.1-beta3.tgz#d234f3c27256397564f2c955142e891909537209"
-  integrity sha1-0jTzwnJWOXVk8slVFC6JGQlTcgk=
+mockjs@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mockjs/-/mockjs-1.1.0.tgz#e6a0c378e91906dbaff20911cc0273b3c7d75b06"
+  integrity sha512-eQsKcWzIaZzEZ07NuEyO4Nw65g0hdWAyurVol1IPl1gahRwY+svqzfgfey8U8dahLwG44d6/RwEzuK52rSa/JQ==
   dependencies:
     commander "*"
 
