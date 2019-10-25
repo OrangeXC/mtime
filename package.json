@@ -20,7 +20,7 @@
     "egg-mock": "^3.24.1",
     "eslint": "^6.5.1",
     "eslint-config-egg": "^7.5.1",
-    "mockjs": "^1.0.1-beta3",
+    "mockjs": "^1.1.0",
     "typescript": "^3.6.4"
   },
   "engines": {
