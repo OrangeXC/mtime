@@ -16,7 +16,7 @@
     "autod": "^3.1.0",
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.14.0",
-    "egg-ci": "^1.13.0",
+    "egg-ci": "^1.13.1",
     "egg-mock": "^3.24.1",
     "eslint": "^6.6.0",
     "eslint-config-egg": "^7.5.1",
