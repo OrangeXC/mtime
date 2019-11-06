@@ -14,17 +14,17 @@
     </div>
     <div class="navbar-menu" id="navMenu">
       <div class="navbar-start">
-        <a class="navbar-item " href="/">
+        <a class="navbar-item navbar-item__link" href="/">
           正在售票
         </a>
-        <a class="navbar-item " href="/hot">
+        <a class="navbar-item navbar-item__link" href="/hot">
           正在热映
         </a>
-        <a class="navbar-item " href="/new">
+        <a class="navbar-item navbar-item__link" href="/new">
           即将上映
         </a>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link  is-active" href="#">
+          <a class="navbar-link is-active" href="#">
             {{ location.name }}
           </a>
           <div class="navbar-dropdown ">
