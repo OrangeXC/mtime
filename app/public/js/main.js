@@ -25,7 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 (function($) {
-  $(document).ready(function() {
+  $(function() {
+    $('.navbar-item__link').each(function() {
+      if ($(this).attr('href') === window.location.pathname) {
+        $(this).addClass('is-active');
+      }
+    });
+
     $('#lightgallery').lightGallery({
       thumbnail: true,
     });
