@@ -9,7 +9,7 @@
     "egg-scripts": "^2.11.1",
     "egg-sequelize": "^5.2.0",
     "egg-view-nunjucks": "^2.2.0",
-    "mysql2": "^2.0.0",
+    "mysql2": "^2.0.1",
     "mz": "^2.7.0"
   },
   "devDependencies": {
