@@ -3159,10 +3159,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^7.5.1:
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-7.5.1.tgz#d62a345e1a541cce7601750941b5840c476e27cc"
-  integrity sha512-HNu+M0Od4HH7SMqo17oFe2n2mwMcKaNA52SQuCXIb3i0KazBxvaaa9DmNvoymQXlbxsZYtSN1J1eKmfZJiISkg==
+eslint-config-egg@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-8.0.0.tgz#4ebe6cf1ef6576b849c647ae218013b79d1670b2"
+  integrity sha512-1ZebXesggA83uW5aVrYrNHeddMvi2w6rqKi8wLZBBkiuNGNNjwG1jywTwJCf+8xt8tJGsEIPOZFlTofqu7M/ng==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.0.0"
     "@typescript-eslint/parser" "^2.0.0"
@@ -7256,10 +7256,10 @@ typescript@^3.0.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
   integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
-typescript@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.2.tgz#27e489b95fa5909445e9fef5ee48d81697ad18fb"
-  integrity sha512-ml7V7JfiN2Xwvcer+XAf2csGO1bPBdRbFCkYBczNZggrBZ9c7G3riSUeJmqEU5uOtXNPMhE3n+R4FA/3YOAWOQ==
+typescript@^3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
+  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
 uglify-js@^3.1.4:
   version "3.6.0"
