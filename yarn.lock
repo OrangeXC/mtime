@@ -2720,10 +2720,10 @@ egg-logrotator@^3.0.5:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@^3.24.2:
-  version "3.24.2"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.24.2.tgz#05b5eedec51172f0fd57ab58678f617773283f51"
-  integrity sha512-MZCS+uX3l/C5aHaj5cRh9Hyya15z3AS9WfAv+vzWEJ4EVNfZcfPA4idUNkKSd4QH3NU9FdK1Js4PZKAdcidz8A==
+egg-mock@^3.25.0:
+  version "3.25.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.25.0.tgz#0cfe6cfe35d8c9844cf84e87484a139c2dc72003"
+  integrity sha512-6BRkkDrBTySllEc9JH5ReT0ysF/1XvLwEeitp6Q4oftrIplrQcntpdeCjMoJ1cONoXvERP358ytmnfXX9I7vsA==
   dependencies:
     "@types/power-assert" "^1.5.0"
     "@types/supertest" "^2.0.7"
