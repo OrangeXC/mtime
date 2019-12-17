@@ -6,7 +6,7 @@
   "dependencies": {
     "egg": "^2.26.0",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.11.1",
+    "egg-scripts": "^2.12.0",
     "egg-sequelize": "^5.2.0",
     "egg-view-nunjucks": "^2.2.0",
     "mysql2": "^2.0.2",
