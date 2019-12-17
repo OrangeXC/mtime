@@ -2796,10 +2796,10 @@ egg-schedule@^3.6.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
-egg-scripts@^2.11.1:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.11.1.tgz#bd7bd82c557ba170a8811c13157a9ee353c1ee60"
-  integrity sha512-HfHhFzf8zLCmV3l3i6IyhKrWKle1zfKy8adNk+UUwDh+tiGuq3qO2f4Lkbsi6WJrwvoNV46TdNVE1fseEVk5Dg==
+egg-scripts@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.12.0.tgz#325471ca9c26fbe39918c7bf41d397bb16233bde"
+  integrity sha512-4wIVEf+B3jfYPcuqNJfZYDDLwPHtzBxchJ1j0PPqEKcotN1qJOcL837/kwWLj2UKOTH5WlpijgGV5POfLOvb3A==
   dependencies:
     await-event "^2.1.0"
     common-bin "^2.8.0"
