@@ -2834,10 +2834,10 @@ egg-security@^2.4.3:
     type-is "^1.6.15"
     xss "^1.0.3"
 
-egg-sequelize@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-5.2.0.tgz#b326a9be377b5254241b2fa702e6cde39d55cdee"
-  integrity sha512-sMLgYcwpN48YvXSSgYiw+lhIUVO1d7cjKLrm1JWkOvyLq0FcKmttF7oiBsK0YBSTaiOlNwBR7gM8LSeW6BFIlw==
+egg-sequelize@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/egg-sequelize/-/egg-sequelize-5.2.1.tgz#d62e9f35af95975719ef130c8c3a5cdfeac8c671"
+  integrity sha512-TVWzgs0FrHEI0BY/LRMCo2faGsdMpw0rGtBCCglp7tAt/n0sSY5EeLM91/KjzG0mw0yPYGk8u9CfKd8dH6u/8Q==
   dependencies:
     "@types/sequelize" "^4.27.24"
     mz-modules "^2.1.0"
@@ -5216,10 +5216,10 @@ mute-stream@0.0.8:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-mysql2@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-2.0.2.tgz#178c1c018a9283751ffa8dcf67ed720bb5b1c6a6"
-  integrity sha512-n9Tiw8LzrfOnH1CLFw0AWJlkQLOWMSr2Q+/aF5jRJ7SRRJLGrY9FidhyoTEhF0FxQYE+xABvXwiZl4b61Mt4eg==
+mysql2@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-2.1.0.tgz#55ecfd4353114c148cc4c253192dbbfd000e6642"
+  integrity sha512-9kGVyi930rG2KaHrz3sHwtc6K+GY9d8wWk1XRSYxQiunvGcn4DwuZxOwmK11ftuhhwrYDwGx9Ta4VBwznJn36A==
   dependencies:
     cardinal "^2.1.1"
     denque "^1.4.1"
