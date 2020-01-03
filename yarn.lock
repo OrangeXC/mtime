@@ -2582,10 +2582,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@^4.14.0:
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.14.0.tgz#3c885062be4b41cd2e355d98aa687467d327cf52"
-  integrity sha512-NzxQ2tWOxMWsJ4os0SiJyGimc4U/vv/9O6HywcFah/M1M3Wi5t1GsCcBb5AQdVw3k9GHUnfp+4xiVFdslvrS6A==
+egg-bin@^4.14.1:
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.14.1.tgz#2b4bfd44840808f66ba28893c71e5a3fb1604d59"
+  integrity sha512-9lAtk+e2zQrhwRTZD96108Cw06r/Vy4aJ+gw9JgCbdMozmgiCMFc1DdLIcBWmi7X/AsYWbUbzdVtVJQdwuLBtw==
   dependencies:
     autod "^3.1.0"
     chalk "^2.4.2"
