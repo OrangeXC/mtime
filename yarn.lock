@@ -2720,10 +2720,10 @@ egg-logrotator@^3.0.5:
     moment "^2.24.0"
     mz "^2.7.0"
 
-egg-mock@^3.25.0:
-  version "3.25.0"
-  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-3.25.0.tgz#0cfe6cfe35d8c9844cf84e87484a139c2dc72003"
-  integrity sha512-6BRkkDrBTySllEc9JH5ReT0ysF/1XvLwEeitp6Q4oftrIplrQcntpdeCjMoJ1cONoXvERP358ytmnfXX9I7vsA==
+egg-mock@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/egg-mock/-/egg-mock-4.0.0.tgz#829334c2dd7b25a4d3e2a3effa7ab3fef31b913d"
+  integrity sha512-2Lfch1jrcs0u3PST/PwUc6tKgVbn7HO3jQVmyFHlZE5eg7tuR7CXFow0pGZVhJZY4TPGAQkNEitr7/UkVUc4FA==
   dependencies:
     "@types/power-assert" "^1.5.0"
     "@types/supertest" "^2.0.7"
@@ -2741,7 +2741,7 @@ egg-mock@^3.25.0:
     ko-sleep "^1.0.3"
     merge-descriptors "^1.0.1"
     methods "^1.1.2"
-    mm "^2.5.0"
+    mm "^3.0.2"
     mz-modules "^2.1.0"
     power-assert "^1.6.1"
     supertest "^4.0.2"
@@ -2796,10 +2796,10 @@ egg-schedule@^3.6.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
-egg-scripts@^2.12.0:
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.12.0.tgz#325471ca9c26fbe39918c7bf41d397bb16233bde"
-  integrity sha512-4wIVEf+B3jfYPcuqNJfZYDDLwPHtzBxchJ1j0PPqEKcotN1qJOcL837/kwWLj2UKOTH5WlpijgGV5POfLOvb3A==
+egg-scripts@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/egg-scripts/-/egg-scripts-2.13.0.tgz#3e88262e3161e9003cf07e6dbd0074870e65c6cb"
+  integrity sha512-oxFjb2V9G5EVIFWPK3EkQoAHV+eMDbBGi1FnOH32MkGP+IRe/Y/Nnj4jbuxzJzpwsLLYvtNEk3FRpokEOC3V3A==
   dependencies:
     await-event "^2.1.0"
     common-bin "^2.8.0"
@@ -3159,10 +3159,10 @@ escope@^3.3.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-egg@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-8.0.0.tgz#4ebe6cf1ef6576b849c647ae218013b79d1670b2"
-  integrity sha512-1ZebXesggA83uW5aVrYrNHeddMvi2w6rqKi8wLZBBkiuNGNNjwG1jywTwJCf+8xt8tJGsEIPOZFlTofqu7M/ng==
+eslint-config-egg@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-egg/-/eslint-config-egg-8.0.1.tgz#cc68cb060fd9e054dc2983b145753c647e4bb79a"
+  integrity sha512-YArVIQdfbC78mTQtdKU3v7xrLqcKcrM0wA6H6QU5OGNFKuj+mZYwePeiXcS0QWV3eQtAEStXglEUK8DUtXeang==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.0.0"
     "@typescript-eslint/parser" "^2.0.0"
@@ -4671,7 +4671,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
-ko-sleep@^1.0.2, ko-sleep@^1.0.3:
+ko-sleep@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/ko-sleep/-/ko-sleep-1.0.3.tgz#28a2a0a1485e8b7f415ff488dee17d24788ab082"
   integrity sha1-KKKgoUhei39BX/SI3uF9JHiKsII=
@@ -5111,15 +5111,15 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mm@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/mm/-/mm-2.5.0.tgz#dfb993762c1468b591c4c4fcd47dff45ed01378a"
-  integrity sha512-ilm+lGEBNm7Cw45um9ax0tbApiNwQV3PY6Yk1ol+wtA8c98hHuJqTgmdKB6rYQJTUC2QrhBfoWwN+/766ZlrYA==
+mm@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/mm/-/mm-3.0.2.tgz#cdf1780e50c5d9eaffa3555348d555bd9fd30dbb"
+  integrity sha512-1XC8LAIjn+HURVhcyCXRN/cvBu6SfZSevLOvHK+GkhqGqGOzNPGX+vuLUfEBSM09dGQ1m7Lq06Ca7FiZK+fctQ==
   dependencies:
-    is-type-of "^1.0.0"
-    ko-sleep "^1.0.2"
-    muk-prop "^1.0.0"
-    thenify "^3.2.1"
+    is-type-of "^1.2.1"
+    ko-sleep "^1.0.3"
+    muk-prop "^1.2.1"
+    thenify "^3.3.0"
 
 mocha@^6.0.2:
   version "6.2.0"
@@ -5184,7 +5184,7 @@ ms@^2.0.0, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-muk-prop@^1.0.0:
+muk-prop@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/muk-prop/-/muk-prop-1.2.1.tgz#40fa3d6e93553b2016a9fb77d8918568c57ae14d"
   integrity sha512-NdkOVav3GoIkBZqMUneU435HW0a90zitpuO1erPRhOQdPtl65dXD3G9/1k46G6/0ZMau4CJFFUHkMKVsyNZT+w==
@@ -7085,7 +7085,7 @@ thenify-all@^1.0.0:
   dependencies:
     thenify ">= 3.1.0 < 4"
 
-"thenify@>= 3.1.0 < 4", thenify@^3.2.1:
+"thenify@>= 3.1.0 < 4", thenify@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/thenify/-/thenify-3.3.0.tgz#e69e38a1babe969b0108207978b9f62b88604839"
   integrity sha1-5p44obq+lpsBCCB5eLn2K4hgSDk=
@@ -7256,10 +7256,10 @@ typescript@^3.0.0:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.5.3.tgz#c830f657f93f1ea846819e929092f5fe5983e977"
   integrity sha512-ACzBtm/PhXBDId6a6sDJfroT2pOWt/oOnk4/dElG5G33ZL776N3Y6/6bKZJBFpd+b05F3Ct9qDjMeJmRWtE2/g==
 
-typescript@^3.7.4:
-  version "3.7.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
-  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
+typescript@^3.8.3:
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
+  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
 
 uglify-js@^3.1.4:
   version "3.6.0"
