@@ -6,7 +6,7 @@
   "dependencies": {
     "egg": "^2.26.0",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.12.0",
+    "egg-scripts": "^2.13.0",
     "egg-sequelize": "^5.2.1",
     "egg-view-nunjucks": "^2.2.0",
     "mysql2": "^2.1.0",
@@ -17,11 +17,11 @@
     "autod-egg": "^1.1.0",
     "egg-bin": "^4.14.1",
     "egg-ci": "^1.13.1",
-    "egg-mock": "^3.25.0",
+    "egg-mock": "^4.0.0",
     "eslint": "^6.8.0",
-    "eslint-config-egg": "^8.0.0",
+    "eslint-config-egg": "^8.0.1",
     "mockjs": "^1.1.0",
-    "typescript": "^3.7.4"
+    "typescript": "^3.8.3"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -35,7 +35,7 @@
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "npm run lint && npm run cov",
+    "ci": "npm run lint",
     "autod": "autod"
   },
   "ci": {
