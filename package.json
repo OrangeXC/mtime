@@ -4,7 +4,7 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.26.0",
+    "egg": "^2.26.1",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.13.0",
     "egg-sequelize": "^5.2.1",
@@ -18,10 +18,10 @@
     "egg-bin": "^4.14.1",
     "egg-ci": "^1.15.0",
     "egg-mock": "^4.0.0",
-    "eslint": "^7.0.0",
+    "eslint": "^7.1.0",
     "eslint-config-egg": "^8.0.1",
     "mockjs": "^1.1.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.3"
   },
   "engines": {
     "node": ">=10.0.0"
