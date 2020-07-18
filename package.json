@@ -21,7 +21,7 @@
     "eslint": "^7.4.0",
     "eslint-config-egg": "^8.0.1",
     "mockjs": "^1.1.0",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "engines": {
     "node": ">=10.0.0"
