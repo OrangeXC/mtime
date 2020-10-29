@@ -4,24 +4,24 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "^2.29.1",
-    "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.13.0",
-    "egg-sequelize": "^6.0.0",
-    "egg-view-nunjucks": "^2.2.0",
-    "mysql2": "^2.2.5",
-    "mz": "^2.7.0"
+    "egg": "2.29.1",
+    "egg-mysql": "3.0.0",
+    "egg-scripts": "2.13.0",
+    "egg-sequelize": "6.0.0",
+    "egg-view-nunjucks": "2.2.0",
+    "mysql2": "2.2.5",
+    "mz": "2.7.0"
   },
   "devDependencies": {
-    "autod": "^3.1.0",
-    "autod-egg": "^1.1.0",
-    "egg-bin": "^4.15.0",
-    "egg-ci": "^1.18.0",
-    "egg-mock": "^4.0.1",
-    "eslint": "^7.12.1",
-    "eslint-config-egg": "^8.1.2",
-    "mockjs": "^1.1.0",
-    "typescript": "^4.0.5"
+    "autod": "3.1.0",
+    "autod-egg": "1.1.0",
+    "egg-bin": "4.15.0",
+    "egg-ci": "1.18.0",
+    "egg-mock": "4.0.1",
+    "eslint": "7.12.1",
+    "eslint-config-egg": "8.1.2",
+    "mockjs": "1.1.0",
+    "typescript": "4.0.5"
   },
   "engines": {
     "node": ">=10.0.0"
