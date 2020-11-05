@@ -895,7 +895,28 @@ autod-egg@1.1.0:
   resolved "https://registry.yarnpkg.com/autod-egg/-/autod-egg-1.1.0.tgz#bc37bb954661d88ef07e30dc83e11262bf9e30ac"
   integrity sha512-dZ5ZRiHcHaehQnpEBWmxHTvQfIHKUdr10Qlrs/ZdBfb6NG2lUfNlVUGnqNVkp9wFsJJTGdN7ADmW9gkN8bSLrg==
 
-autod@3.1.0, autod@^3.1.0:
+autod@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/autod/-/autod-3.1.1.tgz#9cf8c6f709b5a2d920c0f2dc4f3f9e31a7320f0f"
+  integrity sha512-aDZtv+2PqCH+vhm5BLYz+uKS2oAAIeRsVMeIrsYvAqzKbCwtP/EtDGFOQJOC8oL6BwMco+cnXsbFOJzZhyg9Og==
+  dependencies:
+    babel-core "^6.26.0"
+    babel-preset-env "^1.6.1"
+    babel-preset-react "^6.24.1"
+    babel-preset-stage-0 "^6.24.1"
+    co "^4.6.0"
+    colors "^1.1.2"
+    commander "^2.11.0"
+    crequire "^1.8.1"
+    debug "^3.1.0"
+    fs-readdir-recursive "^1.1.0"
+    glob "^7.1.2"
+    minimatch "^3.0.4"
+    printable "^0.0.3"
+    semver "^6.0.0"
+    urllib "^2.25.1"
+
+autod@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/autod/-/autod-3.1.0.tgz#5e27278b868b8a13b0a4b6f304ea50ba783f28e9"
   integrity sha512-sx9phRpnxeAD4tbsqXyidDLuOWuXRIbRUEj8i9GXO9Izucrq4E+LRFPGXayEVkF4SfUJRumLTNblxiz7KfzxgQ==
