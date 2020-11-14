@@ -18,8 +18,8 @@
     "egg-bin": "4.15.0",
     "egg-ci": "1.18.0",
     "egg-mock": "4.0.1",
-    "eslint": "7.12.1",
-    "eslint-config-egg": "8.1.2",
+    "eslint": "7.13.0",
+    "eslint-config-egg": "9.0.0",
     "mockjs": "1.1.0",
     "typescript": "4.0.5"
   },
