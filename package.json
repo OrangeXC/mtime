@@ -18,10 +18,10 @@
     "egg-bin": "4.15.0",
     "egg-ci": "1.18.0",
     "egg-mock": "4.0.1",
-    "eslint": "7.13.0",
+    "eslint": "7.14.0",
     "eslint-config-egg": "9.0.0",
     "mockjs": "1.1.0",
-    "typescript": "4.0.5"
+    "typescript": "4.1.2"
   },
   "engines": {
     "node": ">=10.0.0"
