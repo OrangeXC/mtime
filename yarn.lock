@@ -216,10 +216,10 @@
     urijs "^1.19.0"
     utility "^1.15.0"
 
-"@eslint/eslintrc@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.0.tgz#99cc0a0584d72f1df38b900fb062ba995f395547"
-  integrity sha512-2ZPCc+uNbjV5ERJr+aKSPRwZgKd2z11x0EgLvb1PURmUrn9QNRXFqje0Ldq454PfAVyaJYyrDvvIKSFP4NnBog==
+"@eslint/eslintrc@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.1.tgz#442763b88cecbe3ee0ec7ca6d6dd6168550cbf14"
+  integrity sha512-5v7TDE9plVhvxQeWLXDTvFvJBdH6pEsdnl2g/dAptmuFEPedQ4Erq5rsDsX+mvAM610IhNaO2W5V1dOOnDKxkQ==
   dependencies:
     ajv "^6.12.4"
     debug "^4.1.1"
@@ -2694,10 +2694,10 @@ ee-first@1.1.1, ee-first@^1.1.1, ee-first@~1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-egg-bin@4.15.0:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.15.0.tgz#9d1eb3765fdd9c7483427af90d14dc2f51320435"
-  integrity sha512-g+u7B1bRZpi1EMYNGN6YZlCWQsntoq05yDRLSxWNL5bC2bj7PLaPiUEnM1kS4qLJz5DJuwMGXzXJKsSvczeGYg==
+egg-bin@4.16.2:
+  version "4.16.2"
+  resolved "https://registry.yarnpkg.com/egg-bin/-/egg-bin-4.16.2.tgz#45fc6fa88abf0fc976b695b34faf4be58cff3fb1"
+  integrity sha512-rUos0qayCFlK8jpx3bL6Y1yf7RiK73057ntsZD04SyutRRccOqh3NkF65TeW4JbEuIcYaE3sEX58DajqQwltVQ==
   dependencies:
     autod "^3.1.0"
     chalk "^2.4.2"
@@ -2707,16 +2707,18 @@ egg-bin@4.15.0:
     detect-port "^1.3.0"
     egg-ts-helper "^1.25.2"
     egg-utils "^2.4.1"
-    espower-typescript "9.0.1"
+    espower-source "^2.3.0"
     globby "^9.2.0"
     inspector-proxy "^1.2.1"
     intelli-espower-loader "^1.0.1"
     jest-changed-files "^24.7.0"
+    minimatch "^3.0.4"
     mocha "^6.0.2"
     mz-modules "^2.1.0"
     nyc "^13.3.0"
     power-assert "^1.6.1"
     semver "^6.0.0"
+    source-map-support "^0.5.19"
     test-exclude "^5.1.0"
     ts-node "^7"
     ypkgfiles "^1.6.0"
@@ -3454,13 +3456,13 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@7.24.0:
-  version "7.24.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.24.0.tgz#2e44fa62d93892bfdb100521f17345ba54b8513a"
-  integrity sha512-k9gaHeHiFmGCDQ2rEfvULlSLruz6tgfA8DEn+rY9/oYPFFTlz55mM/Q/Rij1b2Y42jwZiK3lXvNTw6w6TXzcKQ==
+eslint@7.26.0:
+  version "7.26.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.26.0.tgz#d416fdcdcb3236cd8f282065312813f8c13982f6"
+  integrity sha512-4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==
   dependencies:
     "@babel/code-frame" "7.12.11"
-    "@eslint/eslintrc" "^0.4.0"
+    "@eslint/eslintrc" "^0.4.1"
     ajv "^6.10.0"
     chalk "^4.0.0"
     cross-spawn "^7.0.2"
@@ -3534,16 +3536,6 @@ espower-source@^2.0.0, espower-source@^2.3.0:
     multi-stage-sourcemap "^0.2.1"
     path-is-absolute "^1.0.0"
     xtend "^4.0.0"
-
-espower-typescript@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/espower-typescript/-/espower-typescript-9.0.1.tgz#536140750f8509f4bdc5db7461c0bf60052c0658"
-  integrity sha512-WmEm8Hs0SX06izEdi4Qlu3GPOgshejXXA22OA5i+9oN0yC9pWLxlomyPkNkksAQl+ZV5dOGyTdC4gBAEfwqBww==
-  dependencies:
-    espower-source "^2.3.0"
-    minimatch "^3.0.3"
-    source-map-support "^0.5.9"
-    ts-node "^7.0.1"
 
 espower@^2.1.1:
   version "2.1.2"
@@ -5297,7 +5289,7 @@ mimic-fn@^2.0.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.3, minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.0, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -6875,7 +6867,7 @@ source-map-support@^0.4.0, source-map-support@^0.4.15:
   dependencies:
     source-map "^0.5.6"
 
-source-map-support@^0.5.6, source-map-support@^0.5.9:
+source-map-support@^0.5.19, source-map-support@^0.5.6, source-map-support@^0.5.9:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
@@ -7375,7 +7367,7 @@ trim-right@^1.0.1:
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
   integrity sha1-yy4SAwZ+DI3h9hQJS5/kVwTqYAM=
 
-ts-node@^7, ts-node@^7.0.0, ts-node@^7.0.1:
+ts-node@^7, ts-node@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-7.0.1.tgz#9562dc2d1e6d248d24bc55f773e3f614337d9baf"
   integrity sha512-BVwVbPJRspzNh2yfslyT1PSbl5uIk03EZlb493RKHN4qej/D06n1cEhjlOJG69oFsE7OT8XjpTUcYf6pKTLMhw==
