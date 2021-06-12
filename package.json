@@ -6,7 +6,7 @@
   "dependencies": {
     "egg": "2.29.4",
     "egg-mysql": "3.0.0",
-    "egg-scripts": "2.13.0",
+    "egg-scripts": "2.14.0",
     "egg-sequelize": "6.0.0",
     "egg-view-nunjucks": "2.3.0",
     "mysql2": "2.2.5",
@@ -18,7 +18,7 @@
     "egg-bin": "4.16.2",
     "egg-ci": "1.18.0",
     "egg-mock": "4.1.0",
-    "eslint": "7.27.0",
+    "eslint": "7.28.0",
     "eslint-config-egg": "9.0.0",
     "mockjs": "1.1.0",
     "typescript": "4.3.2"
