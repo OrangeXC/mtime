@@ -3070,10 +3070,10 @@ egg-watcher@^3.1.0:
     sdk-base "^3.5.0"
     wt "^1.2.0"
 
-egg@2.29.4:
-  version "2.29.4"
-  resolved "https://registry.yarnpkg.com/egg/-/egg-2.29.4.tgz#320375cb8963f4f15ebd8d2d92b8986c16f1a509"
-  integrity sha512-sdRWzp8kdDFGC4aRoDkcV3hp7FajUwf/kHrz8tKfyLBq4TM/zt3Bob49uXZCt0HUCBIZxzvTvYfSsfBZDEXf4Q==
+egg@2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/egg/-/egg-2.30.0.tgz#f0421e01731ea1033a72a13e324dbb66a7235663"
+  integrity sha512-j09rY+yyubjQUPknXGyNx81h3DmZjNPGAeW9SKonM39sEjoCFDFDImkikMoGCsI5y/9d5AkL/bemUI2p4a/euA==
   dependencies:
     "@types/accepts" "^1.3.5"
     "@types/koa" "^2.0.48"
@@ -5511,10 +5511,10 @@ mustache@^2.3.0:
   resolved "https://registry.yarnpkg.com/mustache/-/mustache-2.3.2.tgz#a6d4d9c3f91d13359ab889a812954f9230a3d0c5"
   integrity sha512-KpMNwdQsYz3O/SBS1qJ/o3sqUJ5wSb8gb0pul8CO0S56b9Y2ALm8zCfsjPXsqGFfoNBkDwZuZIAjhsZI03gYVQ==
 
-mysql2@2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-2.2.5.tgz#72624ffb4816f80f96b9c97fedd8c00935f9f340"
-  integrity sha512-XRqPNxcZTpmFdXbJqb+/CtYVLCx14x1RTeNMD4954L331APu75IC74GDqnZMEt1kwaXy6TySo55rF2F3YJS78g==
+mysql2@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-2.3.0.tgz#600f5cc27e397dfb77b59eac93666434f88e8079"
+  integrity sha512-0t5Ivps5Tdy5YHk5NdKwQhe/4Qyn2pload+S+UooDBvsqngtzujG1BaTWBihQLfeKO3t3122/GtusBtmHEHqww==
   dependencies:
     denque "^1.4.1"
     generate-function "^2.3.1"

@@ -4,12 +4,12 @@
   "description": "mtime",
   "private": true,
   "dependencies": {
-    "egg": "2.29.4",
+    "egg": "2.30.0",
     "egg-mysql": "3.0.0",
     "egg-scripts": "2.14.0",
     "egg-sequelize": "6.0.0",
     "egg-view-nunjucks": "2.3.0",
-    "mysql2": "2.2.5",
+    "mysql2": "2.3.0",
     "mz": "2.7.0"
   },
   "devDependencies": {
